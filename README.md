@@ -68,15 +68,17 @@ We release code and scripts for fine-tuning RoBERTa-Large on five text classific
 ### Zero-shot in-context learning 
 
 The main procedure is in `task/gpt3_text_cls.py`
-Scripts for reproducing our experimental results can be found in the `./scripts/<dataset_name>/gpt3_zeroshot/` folder. 
-Note that you need to change `DATA_DIR`, `OUTPUT_DIR` to your own dataset path, bert model path and log path, respectively.
+Scripts for reproducing our experimental results can be found in the `./scripts/<dataset_name>/gpt3_zeroshot/` folder, where 
+`<dataset_name>` takes value in `[sst2, agnews, r8, r52, mr]`. <br>
+Note that you need to change `DATA_DIR`, `OUTPUT_DIR` to your own dataset path, bert model path and log path, respectively.<br>
 For example, run `./scripts/sst2/gpt3_zeroshot/carp_davinci003.sh` will start 
 prompt gpt-3 in the zero-shot setting and save intermediate log to `$OUTPUT_DIR`.
 
 ### Few-shot in-context learning 
 
 The main procedure is in `task/gpt3_text_cls.py`
-Scripts for reproducing our experimental results can be found in the `./scripts/<dataset_name>/<retriever_type>/gpt3_fewshot/` folder. 
-Note that you need to change `DATA_DIR`, `OUTPUT_DIR` to your own dataset path, bert model path and log path, respectively.
+Scripts for reproducing our experimental results can be found in the `./scripts/<dataset_name>/<retriever_type>/gpt3_fewshot/` folder,
+, where `<dataset_name>` takes value in `[sst2, agnews, r8, r52, mr]` and `<retriever_type>` in `[ft_retriever_knn, simcse_retriever_knn, random_demo]`.  <br>
+Note that you need to change `DATA_DIR`, `OUTPUT_DIR` to your own dataset path, bert model path and log path, respectively.<br>
 For example, run `./scripts/sst2/gpt3_fewshot/carp_davinci003.sh` will start 
 prompt gpt-3 in the zero-shot setting and save intermediate log to `$OUTPUT_DIR`.
