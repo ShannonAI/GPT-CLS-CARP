@@ -1,7 +1,8 @@
 <div align="center">
   <img src="files/carp_header_v2.jpg" width="800">
 </div>
-[Paper](https://arxiv.org/abs/2305.08377)<br>
+
+[Paper Link](https://arxiv.org/abs/2305.08377)<br>
 
 If you find this repo helpful, please cite the following:
 ```latex
