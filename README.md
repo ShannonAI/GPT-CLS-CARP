@@ -24,7 +24,7 @@ In this paper, we introduce Clue And Reasoning Prompting (CARP), which is a prog
  
 Examples of prompts under zero-shot and few-shot (k=1) settings are shown in the following: <br>
 
-<div align="center">
+<div align="left">
   <img src="files/carp_prompts.png" width="900">
 </div>
 
