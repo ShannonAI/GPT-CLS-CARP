@@ -19,8 +19,8 @@ For any question, please feel free to post Github issues. <br>
 ## Overview 
 
 In this paper, we introduce Clue And Reasoning Prompting (CARP), which is a progressive reasoning strategy tailored to addressing the complex linguistic phenomena involved in text classification.
-* CARP first prompts LLMs to find superficial clues (e.g., keywords, tones, semantic relations, references, etc), based on which a diagnostic reasoning process is deduced for final decisions. 
-* To further address the limited token issue, CARP uses a fine-tuned model on the supervised dataset for kNN demonstration search in the in-context learning, allowing the model to take the advantage of both LLM’s generalization ability and the task-specific evidence provided by the full labeled dataset. <br>
+CARP first prompts LLMs to find superficial clues (e.g., keywords, tones, semantic relations, references, etc), based on which a diagnostic reasoning process is deduced for final decisions. 
+To further address the limited token issue, CARP uses a fine-tuned model on the supervised dataset for kNN demonstration search in the in-context learning, allowing the model to take the advantage of both LLM’s generalization ability and the task-specific evidence provided by the full labeled dataset. <br>
  
 Examples of prompts under zero-shot and few-shot (k=1) settings are shown in the following: <br>
 
