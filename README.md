@@ -1,10 +1,10 @@
 # Text Classification via Large Language Models
 
-The repository contains the code of the recent research advances in [Shannon.AI](http://www.shannonai.com). 
+The repository contains data, code and models of the recent research advances in [Shannon.AI](http://www.shannonai.com). 
 
 **Text Classification via Large Language Models** <br>
 Xiaofei Sun*, Xiaoya Li*, Jiwei Li, Fei Wu, Shangwei Guo, Tianwei Zhang, Guoyin Wang<br>
-ArXiv Pre-print. [paper](https://arxiv.org/abs/2305.08377)<br>
+ArXiv pre-print. [paper](https://arxiv.org/abs/2305.08377)<br>
 If you find this repo helpful, please cite the following:
 ```latex
 @article{sun2023text,
@@ -20,4 +20,6 @@ For any question, please feel free to post Github issues. <br>
 
 Clue And Reasoning Prompting (CARP) introduces a progressive reasoning strategy tailored to addressing the complex linguistic phenomena involved in text classification.
 
-<img src="files/carp_prompts.png" width="400">
+<div align="center">
+  <img src="files/carp_prompts.png" width="800">
+</div>

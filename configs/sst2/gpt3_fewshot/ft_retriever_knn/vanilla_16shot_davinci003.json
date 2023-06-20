@@ -4,14 +4,8 @@
   "save_log_dir": "/data2/lixiaoya/outputs/gpt_text/sst2_original_v2/gpt3_fewshot/mlm_neighbor_sample_dynamic/classify_16nearest_davinci003_temp2",
   "gpt3_backbone": "friday",
   "gpt3_model_config": {
-    "openai_api_key": [
-      "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",
-      "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",
-      "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",
-      "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",
-      "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",
-      "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"
-    ],
+    "openai_api_key":
+      "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",
     "batch_size": 18,
     "engine_name": "text-davinci-003",
     "max_retries": 12,
