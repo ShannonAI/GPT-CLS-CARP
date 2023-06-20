@@ -1,0 +1,74 @@
+{
+  "dataset_name": "sst2",
+  "data_dir_path": "/data2/lixiaoya/gpt_data_models/original_sst2",
+  "save_log_dir": "/data2/lixiaoya/outputs/gpt_text/sst2_original_v2/gpt3_fewshot/mlm_neighbor_sample_dynamic/explain_classify_8nearest_davinci003",
+  "gpt3_backbone": "friday",
+  "gpt3_model_config": {
+    "openai_api_key": [
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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"
+    ],
+    "batch_size": 2,
+    "engine_name": "text-davinci-003",
+    "max_retries": 12,
+    "max_tokens": 200,
+    "temperature": 0.7,
+    "top_p": 1,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "best_of": 1,
+    "friday_url": "http://172.32.0.13:31022",
+    "max_sleep_time": 1200,
+    "request_timeout": 10000,
+    "rate_limit": 50,
+    "rate_limit_delay": 70,
+    "logprobs": 5
+  },
+  "prompt_type": "few-shot-dynamic",
+  "prompt_config": {
+    "gradient_update": false,
+    "instance_num": 8,
+    "max_prompt_len": 3800,
+    "instance_strategy": "finetuned-mlm-nearest-neighbor",
+    "data_retriever_candidate_dir": "/data2/lixiaoya/gpt_data_models/original_sst2",
+    "retriever_name_or_path": "/data2/lixiaoya/gpt_data_models/roberta-large",
+    "retriever_ckpt_path": "/data2/lixiaoya/gpt_data_models/original_gpu8_epoch5_bs16_lr1e-5_weightdecay0.1_warmup0.06_maxlen200_dropout0.2_grad1/checkpoint/epoch=4-val_loss=0.0216-val_acc=0.9553.ckpt",
+    "file_saved_retriever_results": "/data2/lixiaoya/gpt_data_models/sst2_nearest_neighbors/test_finetuned_roberta-large_candtrain_thres0.0_top24_seed9998.jsonl",
+    "model_backbone": "gpt-3",
+    "prompt_strategy": "few-shot",
+    "task_description": "This is an overall sentiment classifier. \nFirst, list clues and explain the reasoning process for determining the sentiment of INPUT sentence.\nNext, based on the clues and the reasoning process, classify the sentiment of the INPUT sentence as Positive or Negative.",
+    "delimiter": "\n\n",
+    "demonstration_pattern": "INPUT: <TEXT> \nSENTIMENT: <VERBALIZER-LABEL>\nClues and the reasoning process: ",
+    "demonstration_subtask_description": "Present the clues and reasoning that support the SENTIMENT determination of the INPUT sentence.",
+    "demonstration_ranking": "score_l2h",
+    "assemble_demonstration_strategy": "model_generate",
+    "assemble_demonstration_pattern": "INPUT: <TEXT> \nClues and the reasoning process: <MODEL-GENERATE>\nSENTIMENT: <VERBALIZER-LABEL>",
+    "verbalizer": {
+      "1": "Positive",
+      "0": "Negative"
+    },
+    "feasible_verbalizer": {
+      "1": [
+        "positive",
+        "pos"
+      ],
+      "0": [
+        "negative",
+        "neg"
+      ]
+    },
+    "verbalizer_position_idx": -1,
+    "non_verbalizer": [
+      "wrong",
+      "random",
+      "retry",
+      "retry-various"
+    ]
+  }
+}

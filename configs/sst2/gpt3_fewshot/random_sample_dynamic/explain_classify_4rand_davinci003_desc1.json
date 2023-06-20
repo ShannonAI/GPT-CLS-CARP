@@ -1,0 +1,46 @@
+{
+  "dataset_name": "sst2",
+  "data_dir_path": "/data2/lixiaoya/datasets/pytorch-sentiment-classification/data/SST2",
+  "save_log_dir": "/data2/lixiaoya/outputs/gpt_text/sst2/gpt3_fewshot/random_sample_dynamic/explain_classify_4rand_davinci003_desc1_182subset",
+  "gpt3_backbone": "vanilla",
+  "gpt3_model_config": {
+    "openai_api_key": "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",
+    "engine_name": "text-davinci-003",
+    "exponential_base": 2,
+    "init_delay": 2,
+    "max_retries": 6,
+    "max_tokens": 2048,
+    "temperature": 0.5,
+    "top_p": 1,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "rate_limit": 50,
+    "rate_limit_delay": 70,
+    "batch_size": 16
+  },
+  "prompt_type": "few-shot-dynamic",
+  "prompt_config": {
+    "gradient_update": false,
+    "instance_num": 4,
+    "max_prompt_len": 2048,
+    "instance_strategy": "random",
+    "model_backbone": "gpt-3",
+    "prompt_strategy": "few-shot",
+    "task_description": "This is a two-step overall sentiment classifier. \nStep 1: list clues and explain the reasoning process for determining the sentiment of INPUT sentence. \nStep 2: based on Step 1 (i.e. clues and the reasoning process), classify the sentiment of the INPUT sentence as Positive or Negative.",
+    "delimiter": "\n\n",
+    "demonstration_ranking": "random",
+    "demonstration_pattern": "INPUT: <TEXT> \nSENTIMENT: <VERBALIZER-LABEL>\nClues and the reasoning process: ",
+    "demonstration_subtask_description": "Present the clues and reasoning that support the SENTIMENT determination of the INPUT sentence.",
+    "assemble_demonstration_strategy": "model_generate",
+    "assemble_demonstration_pattern": "INPUT: <TEXT> \nClues and the reasoning process: <MODEL-GENERATE>\nSENTIMENT: <VERBALIZER-LABEL>",
+    "verbalizer": {
+      "1": "Positive",
+      "0": "Negative"
+    },
+    "verbalizer_position_idx": -1,
+    "non_verbalizer": [
+      "wrong",
+      "random"
+    ]
+  }
+}

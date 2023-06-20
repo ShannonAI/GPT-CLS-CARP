@@ -1,0 +1,86 @@
+{
+  "dataset_name": "sst2",
+  "data_dir_path": "/data2/lixiaoya/gpt_data_models/original_sst2",
+  "save_log_dir": "/data2/lixiaoya/outputs/gpt_text/sst2_original_v2/gpt3_fewshot/mlm_neighbor_sample_dynamic/explain_classify_16nearest_davinci003_temp2",
+  "gpt3_backbone": "friday",
+  "gpt3_model_config": {
+    "openai_api_key": [
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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",
+      "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"
+    ],
+    "batch_size": 18,
+    "engine_name": "text-davinci-003",
+    "max_retries": 12,
+    "max_tokens": 200,
+    "temperature": 0.7,
+    "top_p": 1,
+    "frequency_penalty": 0.0,
+    "presence_penalty": 0.0,
+    "best_of": 1,
+    "friday_url": "http://172.32.0.10:31022",
+    "max_sleep_time": 1200,
+    "request_timeout": 10000,
+    "rate_limit": 50,
+    "rate_limit_delay": 70,
+    "logprobs": 5
+  },
+  "prompt_type": "few-shot-dynamic",
+  "prompt_config": {
+    "gradient_update": false,
+    "instance_num": 16,
+    "max_prompt_len": 3800,
+    "instance_strategy": "finetuned-mlm-nearest-neighbor",
+    "data_retriever_candidate_dir": "/data2/lixiaoya/gpt_data_models/original_sst2",
+    "retriever_name_or_path": "/data2/lixiaoya/gpt_data_models/roberta-large",
+    "retriever_ckpt_path": "/data2/lixiaoya/gpt_data_models/original_gpu8_epoch5_bs16_lr1e-5_weightdecay0.1_warmup0.06_maxlen200_dropout0.2_grad1/checkpoint/epoch=4-val_loss=0.0216-val_acc=0.9553.ckpt",
+    "file_saved_retriever_results": "/data2/lixiaoya/gpt_data_models/sst2_nearest_neighbors/test_finetuned_roberta-large_candtrain_thres0.0_top24_seed9998.jsonl",
+    "model_backbone": "gpt-3",
+    "prompt_strategy": "few-shot",
+    "task_description": "This is an overall sentiment classifier. \nFirst, list clues and explain the reasoning process for determining the overall sentiment of INPUT sentence.\nNext, based on the clues and the reasoning process, classify the overall sentiment of the INPUT sentence as Positive or Negative.",
+    "delimiter": "\n\n",
+    "demonstration_pattern": "INPUT: <TEXT> \nOVERALL SENTIMENT: <VERBALIZER-LABEL>\nClues and the reasoning process: ",
+    "demonstration_subtask_description": "Present the clues and reasoning that support the OVERALL SENTIMENT determination of the INPUT sentence.",
+    "demonstration_ranking": "score_l2h",
+    "assemble_demonstration_strategy": "model_generate",
+    "assemble_demonstration_pattern": "INPUT: <TEXT> \nClues and the reasoning process: <MODEL-GENERATE>\nOVERALL SENTIMENT: <VERBALIZER-LABEL>",
+    "verbalizer": {
+      "1": "Positive",
+      "0": "Negative"
+    },
+    "feasible_verbalizer": {
+      "1": [
+        "positive",
+        "pos"
+      ],
+      "0": [
+        "negative",
+        "neg"
+      ]
+    },
+    "verbalizer_position_idx": -1,
+    "non_verbalizer": [
+      "wrong",
+      "random",
+      "retry",
+      "retry-various"
+    ]
+  }
+}
