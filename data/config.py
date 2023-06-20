@@ -37,7 +37,7 @@ class BaseConfig:
 
     @classmethod
     def from_json_file(cls, config_path: str):
-        """load config from json files."""
+        """load config from json assets."""
         with open(config_path, "r", encoding="utf-8") as f:
             config_items = json.load(f)
         filtered_configs = {key: value for key, value in config_items.items() if key in cls.__slots__}

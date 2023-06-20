@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="files/carp_header_v2.jpg" width="800">
+  <img src="assets/carp_header_v2.jpg" width="800">
 </div>
 
 [Paper Link](https://arxiv.org/abs/2305.08377)<br>
@@ -25,11 +25,13 @@ In this paper, we introduce Clue And Reasoning Prompting (CARP), which is a prog
 Examples of prompts under zero-shot and few-shot (k=1) settings are shown in the following: <br>
 
 <div align="left">
-  <img src="files/carp_prompts.png" width="900">
+  <img src="assets/carp_prompts.png" width="900">
 </div>
 
 
-## Setup Environment
+### Data 
+
+### Setup Environment
 
 Before running this project, you need to create a conda environment and install required packages. <br>
 
@@ -50,4 +52,22 @@ $ python3
 >>> nltk.download('punkt')
 ```
 
-### 
+### Baseline: Supervised RoBERTa
+
+We release code and scripts for fine-tuning RoBERTa-Large on five text classification datasets, including [SST-2](), [AgNews](), [R8](), [R52](), and [MR]().
+
+### Zero-shot  
+
+The main procedure is in `task/gpt3_text_cls.py`
+Scripts for reproducing our experimental results can be found in the `./scripts/<dataset_name>/gpt3_zeroshot/` folder. 
+Note that you need to change `DATA_DIR`, `OUTPUT_DIR` to your own dataset path, bert model path and log path, respectively.
+For example, run `./scripts/sst2/gpt3_zeroshot/carp_davinci003.sh` will start 
+prompt gpt-3 in the zero-shot setting and save intermediate log to `$OUTPUT_DIR`.
+
+### Few-shot 
+
+The main procedure is in `task/gpt3_text_cls.py`
+Scripts for reproducing our experimental results can be found in the `./scripts/<dataset_name>/<retriever_type>/gpt3_fewshot/` folder. 
+Note that you need to change `DATA_DIR`, `OUTPUT_DIR` to your own dataset path, bert model path and log path, respectively.
+For example, run `./scripts/sst2/gpt3_fewshot/carp_davinci003.sh` will start 
+prompt gpt-3 in the zero-shot setting and save intermediate log to `$OUTPUT_DIR`.
