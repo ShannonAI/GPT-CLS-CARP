@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="files/carp_header.pdf" width="800">
+  <img src="files/carp_header.jpg" width="800">(https://arxiv.org/abs/2305.08377)
 </div>
 
 If you find this repo helpful, please cite the following:
