@@ -31,6 +31,15 @@ Examples of prompts under zero-shot and few-shot (k=1) settings are shown in the
 
 ### Data 
 
+| Dataset Name | Google Drive                                                                               |
+|--------------|--------------------------------------------------------------------------------------------|
+| **`SST-2`**  | [560M](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
+| **`AgNews`** | [1.4M](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |
+| **`R8`**     | [1.4M](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |
+| **`R52`**    | [1.4M](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |
+| **`MR`**     | [1.4M](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |
+
+
 ### Setup Environment
 
 Before running this project, you need to create a conda environment and install required packages. <br>
