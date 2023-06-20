@@ -55,6 +55,8 @@
     },
     "verbalizer_position_idx": -1,
     "non_verbalizer": [
+      "wrong",
+      "random",
       "retry",
       "retry-various"
     ]
