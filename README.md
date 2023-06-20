@@ -31,13 +31,13 @@ Examples of prompts under zero-shot and few-shot (k=1) settings are shown in the
 
 ### Data 
 
-| Dataset Name | Google Drive                                                                               |
-|--------------|--------------------------------------------------------------------------------------------|
-| **`SST-2`**  | [560M](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
-| **`AgNews`** | [1.4M](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |
-| **`R8`**     | [1.4M](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |
-| **`R52`**    | [1.4M](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |
-| **`MR`**     | [1.4M](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |
+| Dataset Name | Fullset                                                                               | Subset                                                                               |
+|--------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| **SST-2** | [560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |[560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
+| **AgNews** | [14](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |[560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
+| **R8** | [1.4](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |[560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
+| **R52** | [1.4](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |[560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
+| **MR** | [1.4](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |[560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
 
 
 ### Setup Environment
@@ -61,11 +61,11 @@ $ python3
 >>> nltk.download('punkt')
 ```
 
-### Baseline: Supervised RoBERTa
+### Supervised RoBERTa
 
 We release code and scripts for fine-tuning RoBERTa-Large on five text classification datasets, including [SST-2](), [AgNews](), [R8](), [R52](), and [MR]().
 
-### Zero-shot  
+### Zero-shot in-context learning 
 
 The main procedure is in `task/gpt3_text_cls.py`
 Scripts for reproducing our experimental results can be found in the `./scripts/<dataset_name>/gpt3_zeroshot/` folder. 
@@ -73,7 +73,7 @@ Note that you need to change `DATA_DIR`, `OUTPUT_DIR` to your own dataset path, 
 For example, run `./scripts/sst2/gpt3_zeroshot/carp_davinci003.sh` will start 
 prompt gpt-3 in the zero-shot setting and save intermediate log to `$OUTPUT_DIR`.
 
-### Few-shot 
+### Few-shot in-context learning 
 
 The main procedure is in `task/gpt3_text_cls.py`
 Scripts for reproducing our experimental results can be found in the `./scripts/<dataset_name>/<retriever_type>/gpt3_fewshot/` folder. 
