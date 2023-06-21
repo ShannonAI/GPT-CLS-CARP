@@ -84,16 +84,17 @@ prompt gpt-3 in the zero-shot setting and save intermediate log to `$OUTPUT_DIR`
 ### Results 
 
 We present experimental results for the supervised baseline `RoBERTa-Large`, the zero-shot setting, and the few-shot setting with the FT-Retriever. 
+More results (e.g., few-shot in-context learning with SimCSE-Retriever) can be found in the [paper](https://arxiv.org/abs/2305.08377).
 
 | Dataset             | SST-2 | AgNews | R8 | R52 | MR | **Average** |
 | ------------------- | :--: | :------------: | :--------: | :---: | :---: | :-----: |
-| RoBERTa-Large      | - |  - |  - | -  |  - | - |
+| RoBERTa-Large      | 95.99 | 95.55 | 97.76  | 96.42 | 91.16  | 95.38 |
 | **Zero-shot**          |  |   |  |  |  | |
-| CoT     | - |  - |  - | -  |  - |- |
-| CARP     | - |  - |  - | -  |  - |- |
-| Vanilla     | - |  - |  - | -  |  - |- |
+|  Vanilla     | 91.55   |  90.72  |  90.19  |  89.06  |  88.69  |  90.04  |  
+|   CoT    | 92.11   |   91.25  |   90.48  |   91.24  |   89.37  |   90.89   |  
+| CARP     |  93.01  |  92.60 |  91.75 |  91.80 |  89.94 | 91.82 |  
 | **Few-shot (FT-Retriever, k=16)** |  |   |  |  |  | |
-| Vanilla     | - |  - |  - | -  |  - |- |
-| CoT     | - |  - |  - | -  |  - |- |
-| CARP     | - |  - |  - | -  |  - |- |
+| Vanilla     | 94.01 | 94.14 | 95.57 | 95.79 | 90.90 | 94.08 |
+| CoT     | 95.48  | 94.89  | 95.59  | 95.89  | 90.17  | 94.40 |
+| CARP     | 96.80 | 95.99 | 98.29 | 96.82 | 91.90 | 95.97 |
 
