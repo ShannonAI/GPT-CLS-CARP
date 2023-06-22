@@ -29,15 +29,13 @@ Examples of prompts under zero-shot and few-shot (k=1) settings are shown in the
 </div>
 
 
-### Data 
+### Data and trained models
 
-| Dataset Name | Fullset                                                                               | Subset                                                                               |
-|--------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| **SST-2** | [560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |[560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
-| **AgNews** | [14](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |[560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
-| **R8** | [1.4](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |[560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
-| **R52** | [1.4](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |[560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
-| **MR** | [1.4](https://drive.google.com/file/d/1-glLDbmCrPgs_odjPvacaBniY0KnC8Z5/view?usp=sharing) |[560](https://drive.google.com/file/d/1CseJzc58W4s8U_eIuAnshHQmnmi7Sr5-/view?usp=sharing) |
+| Name | Link             |
+|------|------------------|
+| Fullset | [Google Drive]() |
+|Subset|   [Google Drive]() |
+|FT Model |   [Google Drive]() |
 
 
 ### Setup Environment
@@ -83,7 +81,7 @@ prompt gpt-3 in the zero-shot setting and save intermediate log to `$OUTPUT_DIR`
 
 ### Results 
 
-We present experimental results for the supervised baseline `RoBERTa-Large`, the zero-shot setting, and the few-shot setting with the FT-Retriever. 
+Experimental results for the supervised baseline `RoBERTa-Large`, the zero-shot setting, and the few-shot setting with the FT-Retriever are shown in the following table. 
 More results (e.g., few-shot in-context learning with SimCSE-Retriever) can be found in the [paper](https://arxiv.org/abs/2305.08377).
 
 | Dataset             | SST-2 | AgNews | R8 | R52 | MR | **Average** |
