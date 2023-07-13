@@ -1,0 +1,138 @@
+{
+  "gpt_returned_result": "TOPIC: Business",
+  "prompt_text": "This is a topic classifier. Classify the topic of Input to one of the following four categories: \\nWorld, Sports, Business, or Sci/Tech.\n\nInput: Credit Suisse to Integrate Units  ZURICH (Reuters) - Credit Suisse will integrate investment  bank Credit Suisse First Boston with its private bank and aims  to float its Winterthur insurance arm, the bank said on  Tuesday, setting itself tough earnings goals.\nTOPIC: Business\n\nInput: Gazprom to Bid for YUKOS Key Oil Unit  MOSCOW (Reuters) - Russia's Gazprom said on Tuesday it will  bid for embattled oil firm YUKOS' main unit next month, as the  Kremlin seeks to turn the world's biggest gas producer into a  major oil player.\nTOPIC: Business\n\nInput: Relief for Euro Disney; Challenges Loom  PARIS (Reuters) - Euro Disney shares leapt on Wednesday  after the French theme park operator clinched a long-awaited  deal to restructure its debt, but analysts say big challenges  loom for Chairman Andre Lacroix.\nTOPIC: Business\n\nInput: Bayer, Lanxess Spin-Off Ratio Is Set  FRANKFURT (Reuters) - Investors in Germany's Bayer will get  one share in chemicals and polymers spin-off Lanxess for every  10 Bayer shares held, a German newspaper said, valuing Lanxess  at nearly 1.6 billion euros (\\$1.97 billion).\nTOPIC: Business\n\nInput: Havas Mulls Bollore Board Seats  PARIS (Reuters) - Havas said it may give board seats to  investor Vincent Bollore, who has been amassing shares in the  French advertising firm amid growing speculation it might be  sold.\nTOPIC: Business\n\nInput: Investors May Sue Russia as YUKOS Tanks  MOSCOW (Reuters) - YUKOS' foreign investors accused Russia  on Friday of attempting to steal the oil giant's key unit  Yugansk and threatened to sue after Moscow set a Dec. 19 fire  sale of its assets, sending the stock collapsing by 25 percent.\nTOPIC: Business\n\nInput: Spain's SCH Wins British Bank for \\$16 Bln  LONDON/MADRID (Reuters) - Spanish bank Santander claimed  victory for its 8.7 billion pound (\\$15.6 billion) agreed  takeover of Britain's Abbey National after its most likely  rival, UK bank HBOS, pulled out of the race.\nTOPIC: Business\n\nInput: Equity Firms to Buy Intelsat for \\$3.1 Bln  PARIS (Reuters) - Intelsat is to be sold to four private  equity firms for \\$3.1 billion, the world's second-largest  satellite operator said on Monday.\nTOPIC: Business\n\nInput: Credit Suisse to Focus on Investment Bank  ZURICH (Reuters) - Credit Suisse plans to focus its  investment banking activities on high-margin business and float  off insurer Winterthur in a long-awaited revamp aimed at  boosting the earnings power of Europe's 10th-largest bank.\nTOPIC: Business\n\nInput: Lehman in Talks to Buy UK Hedge Fund  LONDON/NEW YORK (Reuters) - Investment bank Lehman Brothers  Holdings Inc. is negotiating to buy GLG Partners, a leading  British hedge fund, according to a source familiar with the  matter.\nTOPIC: Business\n\nInput: Conoco Invests in Russia Oil Major LUKOIL  MOSCOW (Reuters) - ConocoPhillips won a \\$2 billion stake in  Russia's LUKOIL and said it aimed to raise that to 20 percent  in a sweeping alliance that allows the two oil majors to tap  vast reserves in northern Russia and Iraq.\nTOPIC: Business\n\nInput: Conoco Wins \\$2 Billion LUKOIL Stake  MOSCOW (Reuters) - ConocoPhillips said on Wednesday it was  seeking 20 percent of Russia's LUKOIL in a far-reaching  alliance which opens the way for the oil majors to tap vast  reserves in northern Russia and Iraq.\nTOPIC: Business\n\nInput: Daimler Nets \\$900 Mln Via Hyundai Sale  LONDON/FRANKFURT (Reuters) - DaimlerChrysler said it raised  more than \\$900 million by selling its 10.5 percent stake in  Hyundai Motor Co. Ltd. on Monday, a remnant of its dented  ambitions to build a global carmaking empire.\nTOPIC: Business\n\nInput: Private Firms to Buy Intelsat for \\$3 Bln  PARIS (Reuters) - Four private equity firms plan to buy  Bermuda-based Intelsat for about \\$3 billion, the world's  second-largest satellite operator said on Monday.\nTOPIC: Business\n\nInput: Conoco Wins \\$2 Bln Russian LUKOIL Stake  MOSCOW (Reuters) - ConocoPhillips said on Wednesday it was  seeking 20 percent of Russia's LUKOIL in a far-reaching  alliance that opens the way for the oil majors to tap vast  reserves in northern Russia and Iraq.\nTOPIC: Business\n\nInput: Gazprom Hits Funding Snag on YUKOS Bid  BERLIN/LONDON (Reuters) - Bankers now in talks with Russian  gas firm Gazprom about paying for its bid for the oil  production arm of YUKOS will not go against a U.S. ruling that  the sale was illegal, banking sources said on Friday.\nTOPIC: Business\n\nINPUT: Lazard Meets in Paris to Discuss IPO  PARIS (Reuters) - Lazard's board was meeting in Paris on  Tuesday to consider a share sale that could end more than 150  years of private ownership at the largest remaining independent  investment bank and buy out its founding families.\n",
+  "gold_label": "3",
+  "text": "Lazard Meets in Paris to Discuss IPO  PARIS (Reuters) - Lazard's board was meeting in Paris on  Tuesday to consider a share sale that could end more than 150  years of private ownership at the largest remaining independent  investment bank and buy out its founding families.",
+  "gpt_returned_logprobs": {
+    "tokens": [
+      "TOP",
+      "IC",
+      ":",
+      " Business",
+      "<|endoftext|>",
+      " \u00a7\u00a7",
+      " FILE",
+      " READ",
+      "ME",
+      ".",
+      "md",
+      "\n"
+    ],
+    "token_logprobs": [
+      -0.099211805,
+      -4.1678675e-05,
+      -0.00020751769,
+      -0.0012785153,
+      -0.00036432498,
+      -0.84004986,
+      -0.0112088565,
+      -1.2056334,
+      -0.00015278964,
+      -0.00048370167,
+      -0.00016376152,
+      -0.00083607866
+    ],
+    "top_logprobs": [
+      {
+        "\n": -2.535491,
+        " ": -7.3992844,
+        " TOP": -4.274233,
+        "Topic": -8.22736,
+        "TOP": -0.099211805
+      },
+      {
+        "ICS": -11.458994,
+        "IC": -4.1678675e-05,
+        "C": -11.764236,
+        "I": -12.722215,
+        "P": -11.967554
+      },
+      {
+        " :": -9.263246,
+        "\n": -10.0897665,
+        "Business": -12.542523,
+        ":": -0.00020751769,
+        " Business": -9.671064
+      },
+      {
+        " business": -11.047131,
+        "\n": -9.245625,
+        " ": -10.513537,
+        "Business": -6.780993,
+        " Business": -0.0012785153
+      },
+      {
+        ".": -8.018618,
+        "\n": -11.152903,
+        " ": -11.066758,
+        "<|endoftext|>": -0.00036432498,
+        "\n\n": -13.015178
+      },
+      {
+        "+": -4.056671,
+        "\n": -3.1497712,
+        "The": -3.4728708,
+        " \u00a7\u00a7": -0.84004986,
+        "\n\n": -4.4446616
+      },
+      {
+        "bytes:\\xbb": -6.7383504,
+        " FILE": -0.0112088565,
+        " 10": -7.7384634,
+        " 1000": -6.0024824,
+        " COM": -5.048606
+      },
+      {
+        " src": -2.1437876,
+        " READ": -1.2056334,
+        " filename": -2.640882,
+        " app": -3.3371718,
+        " lib": -3.8815749
+      },
+      {
+        "ME": -0.00015278964,
+        "me": -11.1688175,
+        "EM": -10.358236,
+        "M": -10.529177,
+        "Me": -11.360895
+      },
+      {
+        "-": -9.477734,
+        ".": -0.00048370167,
+        "2": -10.338806,
+        "\n": -9.940001,
+        "_": -8.368597
+      },
+      {
+        "MD": -11.991199,
+        "\n": -8.970565,
+        " md": -12.848522,
+        "com": -12.920312,
+        "md": -0.00016376152
+      },
+      {
+        "\n": -0.00083607866,
+        "#": -11.012472,
+        " ": -8.049361,
+        "  ": -9.747244,
+        "\n\n": -7.999649
+      }
+    ],
+    "text_offset": [
+      4853,
+      4856,
+      4858,
+      4859,
+      4868,
+      4868,
+      4868,
+      4868,
+      4868,
+      4868,
+      4868,
+      4868
+    ]
+  },
+  "pred_label": "3",
+  "pred_label_word_in_verbalizer": true
+}

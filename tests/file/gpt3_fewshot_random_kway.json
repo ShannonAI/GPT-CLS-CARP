@@ -1,0 +1,10 @@
+{
+  "delimiter": "\n\n",
+  "demo_template": null,
+  "gradient_update": false,
+  "instance_num": 2,
+  "instance_strategy": "random-k-way-per-class",
+  "model_backbone": "gpt-3",
+  "prompt_strategy": "few-shot",
+  "task_description": "NEG POS"
+}

@@ -4,19 +4,23 @@
   "save_log_dir": "/data2/lixiaoya/outputs/gpt_text/sst2_full/gpt3_zeroshot/explain_classify_davinci003_random_desc1",
   "gpt3_backbone": "vanilla",
   "gpt3_model_config": {
-    "openai_api_key": "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",
+    "openai_api_key":
+      "sk-rdm",
+    "batch_size": 18,
     "engine_name": "text-davinci-003",
-    "exponential_base": 2,
-    "init_delay": 1,
-    "max_retries": 6,
-    "max_tokens": 2048,
-    "temperature": 0,
+    "max_retries": 12,
+    "max_tokens": 200,
+    "temperature": 0.7,
     "top_p": 1,
     "frequency_penalty": 0.0,
     "presence_penalty": 0.0,
-    "rate_limit": 60,
+    "best_of": 1,
+    "max_sleep_time": 1200,
+    "request_timeout": 10000,
+    "rate_limit": 50,
     "rate_limit_delay": 70,
-    "batch_size": 16
+    "logprobs": 5,
+    "init_delay": 1
   },
   "prompt_type": "zero-shot",
   "prompt_config": {

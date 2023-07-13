@@ -1,0 +1,12 @@
+{
+  "data_instance_prefix": "SENT:",
+  "data_instance_suffix": "Classify the overall sentiment of SENT as Positive or Negative .",
+  "verbalizer": {
+    "0": "negative",
+    "1": [
+      "positive",
+      "pos"
+    ]
+  },
+  "non_verbalizer": "wrong"
+}

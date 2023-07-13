@@ -2,10 +2,10 @@
   "dataset_name": "sst2",
   "data_dir_path": "/data2/lixiaoya/gpt_data_models/data/sst2_original",
   "save_log_dir": "/data2/lixiaoya/outputs/gpt_text/sst2_original_v2/gpt3_fewshot/mlm_neighbor_sample_dynamic/classify_16nearest_davinci003_temp2",
-  "gpt3_backbone": "friday",
+  "gpt3_backbone": "vanilla",
   "gpt3_model_config": {
     "openai_api_key":
-      "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",
+      "sk-rdm",
     "batch_size": 18,
     "engine_name": "text-davinci-003",
     "max_retries": 12,
@@ -15,14 +15,12 @@
     "frequency_penalty": 0.0,
     "presence_penalty": 0.0,
     "best_of": 1,
-    "friday_url": "http://47.251.43.109:31021",
     "max_sleep_time": 1200,
     "request_timeout": 10000,
     "rate_limit": 50,
     "rate_limit_delay": 70,
     "logprobs": 5,
-    "sign": "super",
-    "version": "v1.1"
+    "init_delay": 1
   },
   "prompt_type": "few-shot-dynamic",
   "prompt_config": {

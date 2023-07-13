@@ -1,0 +1,40 @@
+{
+  "input_text": "POS AND NEG\n\nno movement , no yuks , not much of anything",
+  "gold_label": "0"
+}
+{
+  "input_text": "POS AND NEG\n\na gob of drivel so sickly sweet , even the eager consumers of moore 's pasteurized ditties will retch it up like rancid cr me br l e",
+  "gold_label": "0"
+}
+{
+  "input_text": "POS AND NEG\n\ngangs of new york is an unapologetic mess , whose only saving grace is that it ends by blowing just about everything up",
+  "gold_label": "0"
+}
+{
+  "input_text": "POS AND NEG\n\nwe never really feel involved with the story , as all of its ideas remain just that abstract ideas",
+  "gold_label": "0"
+}
+{
+  "input_text": "POS AND NEG\n\nthis is one of polanski 's best films",
+  "gold_label": "1"
+}
+{
+  "input_text": "POS AND NEG\n\ntake care of my cat offers a refreshingly different slice of asian cinema",
+  "gold_label": "1"
+}
+{
+  "input_text": "POS AND NEG\n\nacting , particularly by tambor , almost makes `` never again '' worthwhile , but lrb writer director rrb schaeffer should follow his titular advice",
+  "gold_label": "0"
+}
+{
+  "input_text": "POS AND NEG\n\nthe movie exists for its soccer action and its fine acting",
+  "gold_label": "1"
+}
+{
+  "input_text": "POS AND NEG\n\narnold 's jump from little screen to big will leave frowns on more than a few faces",
+  "gold_label": "0"
+}
+{
+  "input_text": "POS AND NEG\n\nif this holiday movie is supposed to be a gift , somebody unwrapped it early , took out all the good stuff , and left behind the crap lrb literally rrb",
+  "gold_label": "0"
+}

@@ -119,7 +119,6 @@ class GPT3TextCLS(object):
                 else:
                     raise ValueError(batch_size)
             elif self.config.prompt_type == "zero-shot":
-                # TODO(xiaoya): enable batch request.
                 input_text_with_prompt = []
                 for item in data_item:
                     text_with_prompt = self.prompt.get_model_input(item.text, )
@@ -149,7 +148,6 @@ class GPT3TextCLS(object):
                 self.logger.info("^=" * 20)
                 self.logger.info("INFO: Example of STEP-1 : Prompts")
                 self.logger.info(data_item_obj)
-                self.logger.info("^=" * 20)
 
         # end saving results.
         writer_f.close()
@@ -177,13 +175,11 @@ class GPT3TextCLS(object):
 
         data_item_lst = load_jsonl(step1_prompt_data_path, offset=resume_offset)
         sleep_counter = 0
-        # TODO(xiaoya): change self.prompt.instance_num to batch_size or chunk_size
 
         # start save intermediate results.
         writer_mode = "w" if not resume else "a"
         writer_f = open(saved_result_path, writer_mode, encoding='utf-8')
-        num_workers = 16
-        # self.config.prompt_config.instance_num if self.config.prompt_type.startswith("few-shot") else 1
+        num_workers = self.config.prompt_config.instance_num if self.config.prompt_type.startswith("few-shot") and self.config.gpt3_backbone != "vanilla" else 1
 
         for idx, batch_data_item in tqdm(enumerate(chunked(data_item_lst, num_workers)),
                                          total=math.ceil(len(data_item_lst) / num_workers), desc="step-2"):
@@ -191,10 +187,8 @@ class GPT3TextCLS(object):
                 self.logger.info(f"$$$ STEP 2 - Currrent progress -> {idx} out-of {len(data_item_lst)}")
             batch_prompt_text = [item["prompt_text"] for item in batch_data_item]
             if idx <= 3:
-                self.logger.info("^=" * 20)
                 self.logger.info(">>> PROMPT WITH TEXT")
                 self.logger.info(batch_prompt_text[0])
-                self.logger.info("^=" * 20)
             gpt_returned_results = self.model.forward(batch_prompt_text, num_workers=num_workers,
                                                       only_return_text=False)
 

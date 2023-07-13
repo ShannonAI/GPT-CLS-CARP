@@ -1,0 +1,29 @@
+{
+  "best_of": 1,
+  "engine_name": "text-davinci-003",
+  "frequency_penalty": 0,
+  "friday_url": "http://0.0.0.0:31022",
+  "max_retries": 12,
+  "max_sleep_time": 120,
+  "max_tokens": 256,
+  "openai_api_key": [
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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",
+    "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"
+  ],
+  "presence_penalty": 0.0,
+  "request_timeout": 12000,
+  "temperature": 0.7,
+  "top_p": 1
+}
+

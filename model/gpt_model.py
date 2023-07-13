@@ -159,7 +159,6 @@ class GPT3TextCompletionModel(GPT3ModelAPI):
             frequency_penalty=self.config.frequency_penalty,
             presence_penalty=self.config.presence_penalty,
             logprobs=self.config.logprobs,
-            user=self.config.user
         )
         return response_lst
 

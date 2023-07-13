@@ -5,8 +5,8 @@
   "gpt3_backbone": "vanilla",
   "gpt3_model_config": {
     "openai_api_key":
-      "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",
-    "batch_size": 12,
+      "sk-rdm",
+    "batch_size": 18,
     "engine_name": "text-davinci-003",
     "max_retries": 12,
     "max_tokens": 200,
@@ -15,12 +15,12 @@
     "frequency_penalty": 0.0,
     "presence_penalty": 0.0,
     "best_of": 1,
-    "friday_url": "http://0.0.0.0:31022",
-    "max_sleep_time": 120,
-    "request_timeout": 100,
+    "max_sleep_time": 1200,
+    "request_timeout": 10000,
     "rate_limit": 50,
     "rate_limit_delay": 70,
-    "logprobs": 5
+    "logprobs": 5,
+    "init_delay": 1
   },
   "prompt_type": "few-shot-dynamic",
   "prompt_config": {

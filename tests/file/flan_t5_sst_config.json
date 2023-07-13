@@ -1,0 +1,15 @@
+{
+  "dataset_name": "sst2",
+  "data_dir_path": "/data2/lixiaoya/gpt_data_models/original_sst2",
+  "llm_name_or_dir": "google/flan-t5-small",
+  "prompt": {
+    "data_instance_prefix": "SENT:",
+    "data_instance_suffix": "Classify the overall sentiment of SENT as Positive or Negative .",
+    "verbalizer": {
+      "0": "Negative",
+      "1": "Positive"
+    },
+    "non_verbalizer": "wrong"
+  },
+  "save_log_dir": "/data2/lixiaoya/outputs/debug"
+}

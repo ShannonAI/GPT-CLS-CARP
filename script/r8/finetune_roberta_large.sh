@@ -4,7 +4,7 @@
 # file: carp_davinci003.sh
 
 
-PROJECT_PATH=/data2/lixiaoya/workspace/gpt-text
+PROJECT_PATH=/home/lixiaoya/GPT-CLS-CARP
 export PYTHONPATH="$PYTHONPATH:$PROJECT_PATH"
 
 

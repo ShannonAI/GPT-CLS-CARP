@@ -1,0 +1,19 @@
+{
+  "add_special_tokens": [
+    "[SEP]",
+    "[CLS]"
+  ],
+  "delimiter": "\n",
+  "do_lower_case": false,
+  "gradient_update": false,
+  "instance_num": 0,
+  "instance_strategy": "NULL",
+  "llm_dir": "/data2/lixiaoya/service/grammar_error_correction/english_21dec09/roberta-base",
+  "max_len": 10,
+  "model_backbone": "roberta",
+  "num_of_token_in_vocab": 50265,
+  "prompt_strategy": "zero-shot",
+  "task_description": "neg or pos",
+  "tokenizer": null,
+  "without_cls_sep_tokens": true
+}

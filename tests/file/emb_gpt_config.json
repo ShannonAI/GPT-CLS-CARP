@@ -1,0 +1,18 @@
+{
+  "openai_api_key": [
+    "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",
+    "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",
+    "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"
+  ],
+  "engine_name": "text-embedding-ada-002",
+  "exponential_base": 2,
+  "init_delay": 2,
+  "max_retries": 6,
+  "max_tokens": 2048,
+  "temperature": 0.5,
+  "top_p": 1,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "rate_limit": 50,
+  "rate_limit_delay": 70
+}

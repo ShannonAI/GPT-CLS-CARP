@@ -1,0 +1,668 @@
+{
+  "gpt_returned_result": "SENTIMENT: Neutral\nClues and the reasoning process: The phrase \"lukewarm\" is often used to describe something that is not particularly enthusiastic or passionate. Therefore, the sentiment of the sentence is neutral, as it implies that the speaker is neither strongly positive nor strongly negative towards the film.",
+  "prompt_text": "This is an overall sentiment classifier.\nFirst, classify the sentiment of the INPUT sentence as Positive or Negative.\nNext, based on the sentiment, list clues and explain the reasoning process for determining the sentiment of INPUT.\n\nINPUT: The director mostly plays it straight , turning Leys ' fable into a listless climb down the social ladder . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The use of the word \"listless\" indicates a lack of energy or enthusiasm.\n2. The phrase \"climb down the social ladder\" implies a feeling of decline or regression.\n3. The use of the word \"straight\" implies that the director is not being creative or taking risks, which could be seen as a negative thing.\nOverall, the clues present in the sentence point to a negative sentiment towards the director's work.\n\nINPUT: My advice is to skip the film and pick up the soundtrack . \nSENTIMENT: Negative\nClues and the reasoning process: The word \"skip\" in the sentence implies that the speaker does not recommend the film. The word \"pick up\" in the sentence implies that the speaker does recommend the soundtrack. From this, we can infer that the sentiment of the sentence is negative towards the film and positive towards the soundtrack.\n\nINPUT: A straight-ahead thriller that never rises above superficiality . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The word \"straight-ahead\" implies that the movie is straightforward, but not necessarily of high quality. \n2. The word \"superficiality\" has a negative connotation, suggesting that the movie is lacking in depth and substance. \n3. Taken together, these two clues suggest that the sentiment of the sentence is negative.\n\nINPUT: There 's little to recommend Snow Dogs , unless one considers cliched dialogue and perverse escapism a source of high hilarity . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The sentence contains the word \"little\" to indicate a lack of something, which suggests a negative sentiment. \n2. The phrase \"unless one considers\" indicates that the opinion being presented is not the speaker's opinion, but rather the opinion of someone else. This phrase suggests that the speaker does not agree with the opinion of someone else and thus a negative sentiment is implied. \n3. The words \"cliched dialogue\" and \"perverse escapism\" are both negative descriptors, which further reinforces the negative sentiment of the sentence. \n4. The phrase \"high hilarity\" is an ironic contrast to the negative descriptions, which further suggests a negative sentiment. \nOverall, the clues and reasoning process support the sentiment determination of the input sentence being negative.\n\nINPUT: A handsome but unfulfilling suspense drama more suited to a quiet evening on PBS than a night out at an AMC . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The use of the word \"unfulfilling\" implies dissatisfaction with the type of drama being discussed.\n2. The comparison of a night out at an AMC versus a quiet evening on PBS suggests that the speaker does not consider it to be an exciting or stimulating film.\n3. The word \"handsome\" may be used to describe the production values of the film, but does not imply a positive opinion of it overall.\nTherefore, the sentiment of the sentence is negative.\n\nINPUT: The kind of movie that leaves vague impressions and a nasty aftertaste but little clear memory of its operational mechanics . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The phrase \u201cnasty aftertaste\u201d suggests a negative sentiment towards the movie.\n2. The phrase \u201clittle clear memory of its operational mechanics\u201d implies that the movie is not memorable in a positive way, which could be seen as a negative sentiment.\n3. The overall tone of the sentence is critical and dismissive, suggesting a negative sentiment.\n\nINPUT: Kicks off with an inauspicious premise , mopes through a dreary tract of virtually plotless meanderings and then ends with a whimper . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The use of words such as \"inauspicious,\" \"dreary,\" and \"whimper\" suggest a negative sentiment. \n2. The phrase \"virtually plotless\" implies that the story is not engaging or enjoyable.\n3. The phrase \"mopes through\" suggests a lack of energy or enthusiasm. \nThese clues and the reasoning process point to a negative sentiment for the input sentence.\n\nINPUT: An average B-movie with no aspirations to be anything more . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The use of the word \"average\" suggests that the movie is of less than impressive quality. \n2. The phrase \"no aspirations to be anything more\" implies that the movie does not even attempt to be anything more than it is, which could be seen as a negative sentiment. \n3. When taken together, the clues suggest a negative sentiment towards the movie.\n\nINPUT: A thriller without a lot of thrills . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The word \"thriller\" carries a connotation of excitement and suspense, and the use of the word \"without\" implies that the sentence is making a negative comparison between what is expected (excitement and suspense) and what is being presented (a lack of excitement and suspense).\n2. The word \"thrills\" is used in the sentence, which carries a connotation of excitement, and the use of the word \"without\" implies that the sentence is making a negative comparison between what is expected (excitement) and what is being presented (a lack of excitement).\n3. The sentence is an overall negative statement, as it is saying that there is a lack of the expected excitement and suspense associated with a thriller. \nTherefore, the sentiment of the sentence is negative.\n\nINPUT: The picture emerges as a surprisingly anemic disappointment . \nSENTIMENT: Negative\nClues and the reasoning process: Clue 1: The word \"surprisingly\" implies that the expectations were high, but the outcome was not as expected. \nClue 2: The word \"anemic\" is often used to describe something that is weak or lacking, suggesting a negative outcome.\nClue 3: The word \"disappointment\" suggests that the sentiment is negative, as it implies that the outcome was not satisfactory. \nWhen taken together, these clues and the associated reasoning lead to the conclusion that the sentiment of the sentence is negative.\n\nINPUT: Like a medium-grade network sitcom -- mostly inoffensive , fitfully amusing , but ultimately so weightless that a decent draft in the auditorium might blow it off the screen . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The word \"like\" is used to suggest a comparison, which in this case is a negative one. \n2. The adjectives \"mostly inoffensive\" and \"fitfully amusing\" both suggest that the overall sentiment is negative because the show is only mildly entertaining. \n3. The phrase \"so weightless\" implies that the show lacks substance and is inconsequential, which is a negative sentiment. \n4. The phrase \"a decent draft in the auditorium might blow it off the screen\" is a metaphor for how insignificant the show is, which again is a negative sentiment. \nOverall, the clues in the sentence suggest that the sentiment of the sentence is negative.\n\nINPUT: Despite some strong performances , never rises above the level of a telanovela . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The use of the word \"despite\" implies that what follows is not positive. \n2. The phrase \"never rises above\" implies that the level of the telanovela is too low. \n3. The use of the word \"never\" implies that the situation is unlikely to improve. \nOverall, these clues indicate a negative sentiment towards the situation being described in the sentence.\n\nINPUT: A markedly inactive film , City is conversational bordering on confessional . \nSENTIMENT: Negative\nClues and the reasoning process: 1. The word \"inactive\" implies a lack of energy, suggesting a negative sentiment. \n2. The phrase \"bordering on confessional\" implies a sense of vulnerability and/or sadness, which further suggests a negative sentiment. \n3. The overall structure of the sentence is bleak and lacks any positive elements, further indicating a negative sentiment.\n\nINPUT: Suffice to say its total promise is left slightly unfulfilled . \nSENTIMENT: Negative\nClues and the reasoning process: 1) The use of the qualifier \"slightly\" in the sentence suggests a degree of dissatisfaction or disappointment.\n2) The use of the phrase \"total promise\" implies that something was expected, but not fully delivered upon.\n3) The use of the verb \"left\" implies that something was not accomplished or achieved.\nTherefore, the sentiment of the sentence can be inferred to be negative.\n\nINPUT: In comparison to his earlier films it seems a disappointingly thin slice of lower-class London life ; despite the title ... amounts to surprisingly little . \nSENTIMENT: Negative\nClues and the reasoning process: 1. \"In comparison to his earlier films it seems\" - This phrase implies an unfavorable comparison to the speaker's earlier work. \n2. \"disappointingly thin slice of lower-class London life\" - This phrase implies that the speaker finds the quality of the film to be subpar. \n3. \"despite the title ... amounts to surprisingly little\" - This phrase implies that the speaker finds the film to be lacking in substance even though it has a promising title. \nOverall, these clues and the reasoning process lead to the conclusion that the sentiment of the sentence is negative.\n\nINPUT: But the feelings evoked in the film are lukewarm and quick to pass . \nSENTIMENT: Negative\nClues and the reasoning process: The phrase \"lukewarm\" suggests a feeling of indifference and is often used to describe something that is not particularly enthusiastic or passionate. The fact that the feelings are \"quick to pass\" further supports the sentiment of the sentence being negative, as it indicates that the feelings are fleeting and not lasting.\n\nINPUT: My response to the film is best described as lukewarm.\n",
+  "gold_label": "0",
+  "text": "My response to the film is best described as lukewarm .",
+  "gpt_returned_logprobs": {
+    "tokens": [
+      "S",
+      "ENT",
+      "IM",
+      "ENT",
+      ":",
+      " Neutral",
+      "\n",
+      "Cl",
+      "ues",
+      " and",
+      " the",
+      " reasoning",
+      " process",
+      ":",
+      " The",
+      " phrase",
+      " \"",
+      "lu",
+      "ke",
+      "warm",
+      "\"",
+      " is",
+      " often",
+      " used",
+      " to",
+      " describe",
+      " something",
+      " that",
+      " is",
+      " not",
+      " particularly",
+      " enthusiastic",
+      " or",
+      " passionate",
+      ".",
+      " Therefore",
+      ",",
+      " the",
+      " sentiment",
+      " of",
+      " the",
+      " sentence",
+      " is",
+      " neutral",
+      ",",
+      " as",
+      " it",
+      " implies",
+      " that",
+      " the",
+      " speaker",
+      " is",
+      " neither",
+      " strongly",
+      " positive",
+      " nor",
+      " strongly",
+      " negative",
+      " towards",
+      " the",
+      " film",
+      ".",
+      "<|endoftext|>",
+      " \u00a7\u00a7",
+      " FILE"
+    ],
+    "token_logprobs": [
+      -0.06749512,
+      -2.8138238e-06,
+      -2.3435998e-05,
+      -4.406191e-05,
+      -6.623567e-05,
+      -0.060598217,
+      -0.041296627,
+      -0.0004952696,
+      -0.00048489467,
+      -8.459475e-05,
+      -0.011582823,
+      -0.0018118488,
+      -0.0012142995,
+      -4.9308033e-05,
+      -0.037503228,
+      -0.7805786,
+      -0.051157515,
+      -0.3202102,
+      -6.827632e-08,
+      -8.7733215e-06,
+      -0.0015908738,
+      -1.7826395,
+      -0.61369663,
+      -0.00684391,
+      -0.0057292306,
+      -0.025518673,
+      -0.2026052,
+      -0.009820803,
+      -0.005306091,
+      -0.12834018,
+      -0.02444787,
+      -0.030585105,
+      -0.0064565935,
+      -0.0005562772,
+      -0.87841004,
+      -1.06167,
+      -0.005829947,
+      -0.1580287,
+      -0.008700039,
+      -0.060861826,
+      -0.07107359,
+      -0.004318102,
+      -0.73668325,
+      -0.09013751,
+      -0.39487794,
+      -0.04702054,
+      -0.28894866,
+      -2.6384575,
+      -0.9492165,
+      -0.05569074,
+      -0.031173341,
+      -1.3596641,
+      -0.5035917,
+      -2.4899478,
+      -0.2049335,
+      -0.35107613,
+      -0.55402935,
+      -1.1514188e-05,
+      -1.2186412,
+      -0.00033224377,
+      -0.015473033,
+      -0.005784682,
+      -0.00021741669,
+      -0.011765245,
+      -0.0011870298
+    ],
+    "top_logprobs": [
+      {
+        "\n": -2.7357938,
+        " ": -9.024989,
+        " S": -9.203322,
+        "Sent": -8.580973,
+        "S": -0.06749512
+      },
+      {
+        "ENTS": -15.664583,
+        "EN": -14.026799,
+        "ENT": -2.8138238e-06,
+        " ENT": -15.198117,
+        "<|endoftext|>": -14.097659
+      },
+      {
+        "MENT": -11.493508,
+        "IME": -13.242426,
+        "IM": -2.3435998e-05,
+        "I": -12.409422,
+        "<|endoftext|>": -12.644907
+      },
+      {
+        "NET": -12.025604,
+        "ENTS": -13.084116,
+        "EN": -13.031974,
+        "ET": -10.369693,
+        "ENT": -4.406191e-05
+      },
+      {
+        " :": -9.874374,
+        "\n": -13.940421,
+        ":": -6.623567e-05,
+        ";": -13.702968,
+        " Negative": -11.45747
+      },
+      {
+        "\n": -6.3732543,
+        " ": -7.255359,
+        " Neutral": -0.060598217,
+        "Neg": -8.935973,
+        " Negative": -2.8788967
+      },
+      {
+        " /": -10.158975,
+        "/": -6.031689,
+        "\n": -0.041296627,
+        " ": -3.2744126,
+        "  ": -9.529024
+      },
+      {
+        " Cl": -9.629302,
+        "\n": -7.767251,
+        " ": -13.620336,
+        "Cl": -0.0004952696,
+        "cl": -13.14581
+      },
+      {
+        "UES": -13.237061,
+        "us": -15.918251,
+        "<|endoftext|>": -15.534485,
+        "ue": -7.636929,
+        "ues": -0.00048489467
+      },
+      {
+        " &": -9.644845,
+        " ": -12.4533825,
+        " and": -8.459475e-05,
+        "<|endoftext|>": -12.763913,
+        " And": -12.42917
+      },
+      {
+        " reasoning": -4.6133037,
+        " Reason": -6.5696707,
+        " the": -0.011582823,
+        " Explan": -10.062226,
+        " explanation": -10.197962
+      },
+      {
+        " reasoning": -0.0018118488,
+        " reason": -8.618472,
+        " Reason": -6.440836,
+        " the": -12.185032,
+        " explanation": -12.160765
+      },
+      {
+        " Process": -6.8581,
+        " process": -0.0012142995,
+        "process": -11.1794405,
+        ":": -9.872587,
+        " processes": -9.590903
+      },
+      {
+        " :": -10.231592,
+        ".": -12.724197,
+        ":": -4.9308033e-05,
+        " 1": -12.999835,
+        " The": -12.322667
+      },
+      {
+        "\n": -5.592166,
+        " ": -5.385667,
+        " 1": -3.6792917,
+        " The": -0.037503228,
+        "The": -6.2402344
+      },
+      {
+        " word": -1.1687622,
+        " clue": -6.2117596,
+        " only": -5.8696823,
+        " use": -1.5469207,
+        " phrase": -0.7805786
+      },
+      {
+        " ": -9.694726,
+        " \"": -0.051157515,
+        "bytes: \\xe2\\x80": -3.009541,
+        " '": -8.718596,
+        " used": -8.582448
+      },
+      {
+        "best": -2.0797832,
+        "my": -2.1315866,
+        "lu": -0.3202102,
+        "Luke": -3.7380989,
+        "My": -5.5503945
+      },
+      {
+        "warm": -16.579618,
+        "ke": -6.827632e-08,
+        "uke": -18.320845,
+        "KE": -18.227913,
+        "k": -17.923532
+      },
+      {
+        "-": -15.656187,
+        "warm": -8.7733215e-06,
+        "warming": -15.564407,
+        "war": -15.08487,
+        " warm": -11.740996
+      },
+      {
+        "\"": -0.0015908738,
+        "\",": -9.491913,
+        " response": -7.569097,
+        "bytes:\\xe2\\x80": -9.048548,
+        ",\"": -7.0931754
+      },
+      {
+        " carries": -3.3052557,
+        " implies": -1.0049067,
+        " is": -1.7826395,
+        " suggests": -1.3235862,
+        " does": -3.2888715
+      },
+      {
+        " often": -0.61369663,
+        " a": -3.334617,
+        " an": -4.0899005,
+        " generally": -3.9869723,
+        " used": -1.157188
+      },
+      {
+        " interpreted": -8.235911,
+        " seen": -7.829605,
+        " a": -8.447895,
+        " associated": -5.2297373,
+        " used": -0.00684391
+      },
+      {
+        " to": -0.0057292306,
+        " in": -6.2675433,
+        " as": -5.962377,
+        " when": -7.5541453,
+        " describe": -7.4895797
+      },
+      {
+        " suggest": -5.220811,
+        " imply": -6.35701,
+        " denote": -6.312701,
+        " describe": -0.025518673,
+        " indicate": -4.45591
+      },
+      {
+        " something": -0.2026052,
+        " someone": -7.003932,
+        " a": -1.9191369,
+        " an": -3.967513,
+        " feelings": -4.280437
+      },
+      {
+        " that": -0.009820803,
+        " with": -7.4524837,
+        " as": -5.582852,
+        " or": -7.0155687,
+        " which": -5.6890783
+      },
+      {
+        " lacks": -7.701412,
+        " is": -0.005306091,
+        " has": -6.100295,
+        " one": -8.591621,
+        " does": -6.529791
+      },
+      {
+        " of": -5.1491475,
+        " indifferent": -5.002632,
+        " not": -0.12834018,
+        " neither": -2.3072493,
+        " neutral": -6.1990824
+      },
+      {
+        " passionate": -6.489307,
+        " overly": -4.470899,
+        " enthusiastic": -5.3036137,
+        " especially": -6.4253173,
+        " particularly": -0.02444787
+      },
+      {
+        " passionate": -5.285082,
+        " enthusiastic": -0.030585105,
+        " positive": -4.2498765,
+        " exciting": -5.7644277,
+        " good": -6.104105
+      },
+      {
+        ",": -5.4400377,
+        ".": -7.12479,
+        " or": -0.0064565935,
+        " nor": -7.5437393,
+        " but": -7.992596
+      },
+      {
+        " passionate": -0.0005562772,
+        " enthusiastic": -10.429462,
+        " positive": -8.3419075,
+        " excited": -10.005836,
+        " exciting": -9.248812
+      },
+      {
+        ",": -0.60823596,
+        ".": -0.87841004,
+        " and": -3.5505064,
+        " but": -5.0015106,
+        " which": -6.080796
+      },
+      {
+        " As": -2.3153512,
+        " The": -2.0602336,
+        " In": -2.764894,
+        " This": -1.8172909,
+        " Therefore": -1.06167
+      },
+      {
+        ",": -0.005829947,
+        " the": -5.388562,
+        " it": -7.5152903,
+        " we": -9.782777,
+        " this": -7.546996
+      },
+      {
+        " the": -0.1580287,
+        " in": -5.275731,
+        " it": -3.4504693,
+        " this": -2.537076,
+        " while": -4.580187
+      },
+      {
+        " speaker": -7.206129,
+        " sentiment": -0.008700039,
+        " overall": -6.3946366,
+        " sentence": -6.1772265,
+        " use": -6.9700017
+      },
+      {
+        " of": -0.060861826,
+        " in": -4.7374306,
+        " is": -5.0765467,
+        " can": -4.2799873,
+        " expressed": -4.42776
+      },
+      {
+        " neutrality": -8.729935,
+        " the": -0.07107359,
+        " this": -2.6907728,
+        " neutral": -8.316699,
+        " being": -8.637927
+      },
+      {
+        " sentiment": -9.984978,
+        " statement": -7.803718,
+        " input": -5.6587844,
+        " sentence": -0.004318102,
+        " phrase": -8.0761595
+      },
+      {
+        " is": -0.73668325,
+        " can": -0.7027687,
+        " would": -6.810981,
+        " could": -3.923836,
+        " does": -6.283114
+      },
+      {
+        " best": -3.0641754,
+        " considered": -5.8114686,
+        " not": -4.9618316,
+        " neither": -4.2945194,
+        " neutral": -0.09013751
+      },
+      {
+        ",": -0.39487794,
+        ".": -2.2356865,
+        " rather": -4.444381,
+        " and": -3.1611035,
+        " as": -1.9907393
+      },
+      {
+        " since": -5.33071,
+        " indicating": -4.334471,
+        " rather": -5.280335,
+        " as": -0.04702054,
+        " suggesting": -5.212445
+      },
+      {
+        " the": -1.8016613,
+        " l": -4.5508714,
+        " it": -0.28894866,
+        " there": -2.757161,
+        " neither": -5.268686
+      },
+      {
+        " implies": -2.6384575,
+        " is": -2.261136,
+        " suggests": -3.9348366,
+        " neither": -3.2505178,
+        " does": -0.30997005
+      },
+      {
+        " a": -2.0236335,
+        " an": -2.9993224,
+        " that": -0.9492165,
+        " indifference": -4.0842853,
+        " neither": -0.93050736
+      },
+      {
+        " the": -0.05569074,
+        " there": -3.1603045,
+        " neither": -4.7942104,
+        " no": -6.948087,
+        " while": -6.346927
+      },
+      {
+        " speaker": -0.031173341,
+        " film": -6.2557864,
+        " response": -3.7704709,
+        " opinion": -6.952342,
+        " feelings": -6.23385
+      },
+      {
+        " is": -1.3596641,
+        "'s": -2.269252,
+        " has": -1.3524848,
+        " neither": -3.4892595,
+        " does": -1.2751323
+      },
+      {
+        " indifferent": -4.4300385,
+        " not": -0.98480433,
+        " feeling": -5.707616,
+        " amb": -6.335101,
+        " neither": -0.5035917
+      },
+      {
+        " overly": -2.4737267,
+        " positively": -1.6402582,
+        " particularly": -2.6067767,
+        " positive": -1.0065341,
+        " strongly": -2.4899478
+      },
+      {
+        " positively": -5.136862,
+        " in": -2.701872,
+        " for": -2.4231684,
+        " positive": -0.2049335,
+        " negative": -4.254073
+      },
+      {
+        ",": -7.8693805,
+        " towards": -9.183086,
+        " or": -1.2198372,
+        " nor": -0.35107613,
+        " about": -8.974339
+      },
+      {
+        " strong": -8.183478,
+        " negatively": -4.681188,
+        " negative": -0.87831306,
+        " strongly": -0.55402935,
+        " deeply": -9.744211
+      },
+      {
+        " negatively": -12.256073,
+        "negative": -12.688981,
+        " Negative": -13.70514,
+        " negative": -1.1514188e-05,
+        " critical": -14.578801
+      },
+      {
+        ".": -4.41627,
+        " in": -2.349672,
+        " towards": -1.2186412,
+        " regarding": -5.9459033,
+        " about": -0.5268153
+      },
+      {
+        " something": -10.753274,
+        " the": -0.00033224377,
+        " it": -8.914326,
+        " their": -9.046959,
+        " what": -10.924095
+      },
+      {
+        " subject": -6.7703123,
+        " film": -0.015473033,
+        " response": -9.012478,
+        " movie": -4.2735143,
+        " mentioned": -10.57065
+      },
+      {
+        ",": -8.160086,
+        ".": -0.005784682,
+        " in": -5.35775,
+        " they": -9.145362,
+        " being": -7.7105536
+      },
+      {
+        "\n": -12.078567,
+        " ": -8.667676,
+        " The": -11.40146,
+        "<|endoftext|>": -0.00021741669,
+        " It": -11.985195
+      },
+      {
+        "+": -5.346482,
+        "-": -8.04219,
+        "\t": -7.6717157,
+        "\n": -6.258654,
+        " \u00a7\u00a7": -0.011765245
+      },
+      {
+        "bytes:\\xbb": -9.687191,
+        "\n": -9.959526,
+        " FILE": -0.0011870298,
+        " 1000": -8.583297,
+        " COM": -7.7335277
+      }
+    ],
+    "text_offset": [
+      9979,
+      9980,
+      9983,
+      9985,
+      9988,
+      9989,
+      9997,
+      9998,
+      10000,
+      10003,
+      10007,
+      10011,
+      10021,
+      10029,
+      10030,
+      10034,
+      10041,
+      10043,
+      10045,
+      10047,
+      10051,
+      10052,
+      10055,
+      10061,
+      10066,
+      10069,
+      10078,
+      10088,
+      10093,
+      10096,
+      10100,
+      10113,
+      10126,
+      10129,
+      10140,
+      10141,
+      10151,
+      10152,
+      10156,
+      10166,
+      10169,
+      10173,
+      10182,
+      10185,
+      10193,
+      10194,
+      10197,
+      10200,
+      10208,
+      10213,
+      10217,
+      10225,
+      10228,
+      10236,
+      10245,
+      10254,
+      10258,
+      10267,
+      10276,
+      10284,
+      10288,
+      10293,
+      10294,
+      10294,
+      10294
+    ]
+  },
+  "pred_label": "1",
+  "pred_label_word_in_verbalizer": false
+}

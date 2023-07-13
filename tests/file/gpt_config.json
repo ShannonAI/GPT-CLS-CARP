@@ -1,0 +1,17 @@
+{
+  "openai_api_key": [
+    "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",
+    "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"
+  ],
+  "engine_name": "text-davinci-003",
+  "exponential_base": 2,
+  "init_delay": 2,
+  "max_retries": 6,
+  "max_tokens": 2048,
+  "temperature": 0.5,
+  "top_p": 1,
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "rate_limit": 50,
+  "rate_limit_delay": 70
+}

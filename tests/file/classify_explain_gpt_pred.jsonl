@@ -1,0 +1,1720 @@
+{
+  "gpt_returned_result": "Clues and the reasoning process: Clues: \"town country jewelry manufacturing\", \"qtr\", \"shr cts\", \"net vs sales\", \"avg shrs vs year\", \"shr dlrs vs dlrs\", \"net vs sales\", \"note\". \nReasoning process: This input contains clues that suggest that it is related to earnings and earnings forecasts. The presence of words such as \"qtr\", \"shr cts\", \"net vs sales\", \"avg shrs vs year\", \"shr dlrs vs dlrs\" and \"net vs sales\" indicate that the topic is related to a company's financial performance. Furthermore, the presence of the company's name and the \"note\" suggest that the topic is related to a company's specific earnings report or forecast. \nTOPIC:",
+  "prompt_text": "This is a topic classifier.\nFirst, please list key clues and briefly explain the reasoning process for determining the topic of the INPUT sentence (Limit the number of words to 70).\nNext, based on the clues, the reasoning process and the INPUT sentence, classify the topic into one of the eight categories: Money/Foreign Exchange, Acquisitions, Trade, Interest Rates, Shipping, Earnings and Earnings Forecasts, Grain, Crude Oil.\n\nINPUT: foods inc nd qtr feb net shr cts vs cts net vs sales mln vs mln nine mths shr cts vs cts net vs sales mln vs mln avg shrs vs reuter\nClues and the reasoning process: Clues: \"net shr cts vs cts net vs sales mln vs mln\", \"nine mths shr cts vs cts net vs sales mln vs mln\", \"avg shrs vs\". \nReasoning process: The words \"net\", \"sales\", and \"shr cts\" (short for share count) indicate that the input is related to finances, specifically, earnings and earnings forecasts. The terms \"qtr\" (quarter) and \"nine mths\" (nine months) suggest that the input is related to a specific period\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: inc th qtr jan net shr cts vs cts net vs sales mln vs mln avg shrs vs year shr dlrs vs dlrs net vs sales mln vs mln avg shrs vs reuter\nClues and the reasoning process: The key clues are \"earnings,\" \"forecasts,\" \"nets,\" \"sales,\" \"shares,\" and \"dollars.\" These words indicate that the topic is related to a company's financial performance and expectations. The reasoning process is to identify words related to company finances, which indicate a topic related to earnings and earnings forecasts.\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: family dollar stores inc nd qtr feb shr cts vs cts net vs sales mln vs mln avg shares mln vs mln first half shr cts vs cts net mln vs mln sales mln vs mln avg shrs mln vs mln reuter\nClues and the reasoning process: Clues: \"family dollar stores\", \"nd qtr\", \"shr cts\", \"net vs sales\", \"avg shares mln\", \"first half\", \"reuter\". \nReasoning: The INPUT contains words that indicate financial information, specifically related to a company (family dollar stores). Additionally, words such as \"nd qtr\", \"shr cts\", and \"first half\" suggest that the information is related to earnings and earnings forecasts, which is the TOPIC category.\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: industries inc th qtr net shr cts vs cts net vs sales mln vs mln year shr cts vs cts net vs sales mln vs mln reuter\nClues and the reasoning process: The key clues here are the words \"earnings,\" \"shr cts,\" \"net,\" \"sales,\" and \"year.\" These words indicate that the topic is likely to be related to financial performance and forecasting, which falls under the category of \"Earnings and Earnings Forecasts.\"\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: brown group inc th qtr jan net shr cts vs cts net vs sales mln vs mln avg shrs vs year shr dlrs vs dlrs net vs revs billion vs billion avg shrs vs note period ended february one company changed fiscal yearend january october results restated reflect change reuter\nClues and the reasoning process: The key clues to determine the topic are \"net shr cts vs cts\", \"sales mln vs mln\", \"shr dlrs vs dlrs\", and \"revs billion vs billion\". These clues suggest that the topic is related to financial performance and forecasting, which falls under the category of earnings and earnings forecasts.\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: group inc th qtr net shr cts vs cts net vs sales mln vs mln avg shrs vs year shr cts vs cts net vs sales mln vs mln avg shrs vs backlog mln vs mln reuter\nClues and the reasoning process: Clues: \"net shr cts vs cts\" (net share counts versus share counts), \"net vs sales mln vs mln\" (net versus sales millions versus millions), \"avg shrs vs year\" (average shares versus year), \"shr cts vs cts\" (share counts versus counts), \"net vs sales mln vs mln\" (net versus sales millions versus millions), \"avg shrs vs backlog mln vs mln\" (average shares versus backlog millions versus millions). \nReasoning process: The clues in the INPUT suggest\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: house fabrics inc th qtr jan net shr cts vs cts net vs sales mln vs mln year shr cts vs cts net vs sales mln vs mln note prior year net periods includes dlr charge sale craft stores reuter\nClues and the reasoning process: Clues: \"house fabrics inc\" (company name), \"qtr\" (quarterly), \"shr cts\" (share count), \"net\" (profit/loss), \"sales\" (revenue), \"periods\" (time frame), \"reuter\" (news source). Reasoning process: the input indicates that the topic is related to a company's earnings and earnings forecasts, as it mentions a company name, a time frame (quarterly), share count, profit/loss, and revenue. Furthermore, it also provides a news source, which suggests that\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: products inc th qtr net shr cts vs eight cts net vs sales vs avg shrs vs year shr cts vs cts net vs sales mln vs mln avg shrs vs reuter\nClues and the reasoning process: Clues: \"products\", \"net shr cts\", \"eight cts net\", \"sales\", \"avg shrs\", \"year shr cts\", \"cts net\", \"sales mln\", \"mln avg shrs\". \nReasoning process: The input contains many words related to earnings and financial performance such as \"net shr cts\", \"eight cts net\", \"sales\", and \"year shr cts\". This indicates that the topic likely has something to do with earnings and financial performance. Also, words such as \"products\"\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: corp nd qtr feb net shr cts vs cts net vs sales mln vs mln avg shrs mln vs eight mln st half shr cts vs cts net vs sales mln vs mln avg shrs mln vs eight mln reuter\nClues and the reasoning process: The key clues in the input are \"corp\", \"net\", \"shares\", \"sales\", and \"earnings\". From these clues, it can be inferred that the topic is related to corporate financial performance. Additionally, the words \"qtr\", \"feb\", \"vs\", \"avg\", \"half\", and \"reuter\" suggest that the topic is specifically related to earnings and earnings forecasts.\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: homes inc th qtr net shr cts vs cts net vs sales vs avg shrs vs year oper shr cts vs cts oper net vs sales mln vs mln avg shrs vs note year net excludes dlr tax credit reuter\nClues and the reasoning process: Key clues: \"homes inc\", \"net shr cts vs cts\", \"net vs sales\", \"avg shrs vs year\", \"oper shr cts vs cts\", \"oper net vs sales\".\nReasoning Process: The keywords suggest that the input is related to earnings and earnings forecasts. This is because the words \"net shr cts vs cts\", \"net vs sales\", \"avg shrs vs year\", and \"oper net vs sales\" are all related to financial performance metrics and the comparison of those metrics over different time periods.\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: shops inc th qtr jan net shr cts vs cts net vs sales mln vs mln year shr dlrs vs dlrs net mln vs mln sales mln vs mln reuter\nClues and the reasoning process: Clues: \"shops inc\", \"qtr\", \"jan\", \"net\", \"shr cts\", \"sales mln\", \"year shr dlrs\", \"net mln\", \"reuter\". \nReasoning process: The clues suggest that the input is related to earnings and business performance. Additionally, the presence of terms like \"qtr\", \"jan\" and \"reuter\" suggest that the topic is related to financial forecasting. Therefore, the topic is likely to be \"Earnings and Earnings Forecasts\".\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: industries inc th qtr net shr five cts vs cts net vs sales vs year shr cts vs dlrs net vs sales mln vs mln reuter\nClues and the reasoning process: The key clues in the input are \"net shr\", \"cts vs cts\", \"shr cts vs dlrs\", \"sales mln vs mln\". These are financial terms associated with earnings and earnings forecasts, making it likely that the topic is related to these topics. Additionally, the word \"qtr\" indicates that the topic may refer to a quarterly earnings report or forecast.\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: technology rd qtr march net shr cts vs cts net vs sales mln vs mln avg shrs vs nine mths shr dlrs vs cts net vs sales mln vs mln avg shrs vs reuter\nClues and the reasoning process: The key clues for determining the topic of earnings and earnings forecasts are the words \"net,\" \"shr,\" \"cts,\" \"sales,\" \"mln,\" \"avg,\" and \"shrs.\" These words all refer to financial metrics associated with earnings and earnings forecasts, indicating that the topic is likely to be related to this area. Additionally, the presence of the words \"qtr\" and \"nine mths\" points to the fact that this is likely to be a topic related to forecasting earnings over a period of time.\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: technology inc rd qtr jan shr cts vs cts net vs sales vs avg shrs vs nine mths shr cts vs cts net vs sales mln vs mln avg shrs vs reuter\nClues and the reasoning process: Clues: \"qtr\", \"shr cts\", \"net\", \"sales\", \"avg shrs\", \"nine mths\", \"mln\". \nReasoning: These clues indicate that the topic is related to earnings and financial forecasts. The words \"qtr\" and \"nine mths\" suggest that the topic is referring to quarterly or yearly reports, while the words \"shr cts\", \"net\", \"sales\", and \"mln\" suggest that the topic deals with financial numbers. The word \"avg shrs\" also indicates that the\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: seaman furniture co inc rd qtr jan shr cts vs cts net vs sales mln vs mln avg shrs vs nine mths shr dlrs vs dlrs net mln vs sales mln vs mln reuter\nClues and the reasoning process: Clues: \"seaman furniture co inc\", \"net vs sales\", \"avg shrs vs nine mths\", \"shr dlrs vs dlrs\", \"net mln vs sales mln vs mln\". \nReasoning process: The presence of words such as \"net\", \"sales\", \"avg shrs\", \"shr dlrs\", \"net mln\" and \"sales mln\" suggests this INPUT is related to a company's financial performance. This, combined with the mention of the company's name, indicates the TOP\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: trans world music corp th qtr jan net shr cts vs cts net vs sales mln vs mln avg shrs vs year shr dlrs vs cts net vs sales mln vs mln avg shrs vs reuter\nClues and the reasoning process: Clues: \"trans world music corp\", \"net shr cts vs cts\", \"net vs sales mln vs mln\", \"avg shrs vs year shr dlrs vs cts\", \"avg shrs vs\".\nReasoning: These clues suggest that the topic is related to financial performance, specifically earnings and earnings forecasts. The terms \"net shr cts vs cts\", \"net vs sales mln vs mln\", and \"avg shrs vs year shr dlrs vs cts\" imply that the topic involves analysis of earnings,\nTOPIC: Earnings and Earnings Forecasts\n\nINPUT: town country jewelry manufacturing qtr feb shr cts vs cts net vs sales mln vs mln avg shrs vs year shr dlrs vs dlrs net vs sales mln vs mln avg shrs vs note town country jewelry manufacturing corp reuter\n",
+  "gold_label": "5",
+  "text": "town country jewelry manufacturing qtr feb shr cts vs cts net vs sales mln vs mln avg shrs vs year shr dlrs vs dlrs net vs sales mln vs mln avg shrs vs note town country jewelry manufacturing corp reuter",
+  "gpt_returned_logprobs": {
+    "tokens": [
+      "Cl",
+      "ues",
+      " and",
+      " the",
+      " reasoning",
+      " process",
+      ":",
+      " Cl",
+      "ues",
+      ":",
+      " \"",
+      "town",
+      " country",
+      " jewelry",
+      " manufacturing",
+      "\",",
+      " \"",
+      "q",
+      "tr",
+      "\",",
+      " \"",
+      "shr",
+      " c",
+      "ts",
+      "\",",
+      " \"",
+      "net",
+      " vs",
+      " sales",
+      "\",",
+      " \"",
+      "av",
+      "g",
+      " sh",
+      "rs",
+      " vs",
+      " year",
+      "\",",
+      " \"",
+      "shr",
+      " d",
+      "l",
+      "rs",
+      " vs",
+      " d",
+      "l",
+      "rs",
+      "\",",
+      " \"",
+      "net",
+      " vs",
+      " sales",
+      "\",",
+      " \"",
+      "note",
+      "\".",
+      " ",
+      "\n",
+      "Reason",
+      "ing",
+      " process",
+      ":",
+      " This",
+      " input",
+      " contains",
+      " clues",
+      " that",
+      " suggest",
+      " that",
+      " it",
+      " is",
+      " related",
+      " to",
+      " earnings",
+      " and",
+      " earnings",
+      " forecasts",
+      ".",
+      " The",
+      " presence",
+      " of",
+      " words",
+      " such",
+      " as",
+      " \"",
+      "q",
+      "tr",
+      "\",",
+      " \"",
+      "shr",
+      " c",
+      "ts",
+      "\",",
+      " \"",
+      "net",
+      " vs",
+      " sales",
+      "\",",
+      " \"",
+      "av",
+      "g",
+      " sh",
+      "rs",
+      " vs",
+      " year",
+      "\",",
+      " \"",
+      "shr",
+      " d",
+      "l",
+      "rs",
+      " vs",
+      " d",
+      "l",
+      "rs",
+      "\"",
+      " and",
+      " \"",
+      "net",
+      " vs",
+      " sales",
+      "\"",
+      " indicate",
+      " that",
+      " the",
+      " topic",
+      " is",
+      " related",
+      " to",
+      " a",
+      " company",
+      "'s",
+      " financial",
+      " performance",
+      ".",
+      " Furthermore",
+      ",",
+      " the",
+      " presence",
+      " of",
+      " the",
+      " company",
+      "'s",
+      " name",
+      " and",
+      " the",
+      " \"",
+      "note",
+      "\"",
+      " suggest",
+      " that",
+      " the",
+      " topic",
+      " is",
+      " related",
+      " to",
+      " a",
+      " company",
+      "'s",
+      " specific",
+      " earnings",
+      " report",
+      " or",
+      " forecast",
+      ".",
+      " ",
+      "\n",
+      "TOP",
+      "IC",
+      ":"
+    ],
+    "token_logprobs": [
+      -0.008791494,
+      -1.4854846e-05,
+      -0.000111420464,
+      -0.000753697,
+      -0.0013796804,
+      -0.000493718,
+      -0.00017210613,
+      -0.38505864,
+      -0.0005553226,
+      -0.0025976219,
+      -0.016523255,
+      -0.5544799,
+      -0.0030360604,
+      -0.0034957433,
+      -0.012030043,
+      -0.070056334,
+      -0.0018551423,
+      -0.1620007,
+      -4.799487e-05,
+      -0.108052224,
+      -0.0008353625,
+      -0.18768041,
+      -0.00030487834,
+      -2.8206221e-05,
+      -0.2355492,
+      -0.0003871004,
+      -0.006074166,
+      -0.5280262,
+      -0.0008632808,
+      -0.124736905,
+      -0.0005970119,
+      -0.06034899,
+      -1.2231317e-05,
+      -0.0026068874,
+      -0.00013109177,
+      -2.1857083,
+      -0.19008462,
+      -0.25159577,
+      -0.0033484334,
+      -0.23965004,
+      -0.0015864583,
+      -0.0003245515,
+      -5.7177684e-05,
+      -0.6259891,
+      -0.007485661,
+      -0.0003634877,
+      -2.2126573e-05,
+      -0.10619487,
+      -0.0051996144,
+      -0.16177604,
+      -0.009125817,
+      -0.0010200092,
+      -0.17044674,
+      -0.016502589,
+      -0.4803033,
+      -1.1938325,
+      -0.24081783,
+      -0.0011189391,
+      -0.00223393,
+      -0.0003921081,
+      -0.42415968,
+      -0.00013586106,
+      -4.3425922,
+      -0.507432,
+      -0.40136474,
+      -2.263336,
+      -0.48185045,
+      -0.7126383,
+      -1.415363,
+      -2.3936348,
+      -0.031526297,
+      -0.024413176,
+      -0.00011666565,
+      -0.80231565,
+      -0.0037864223,
+      -0.27797583,
+      -0.021835934,
+      -0.13021679,
+      -0.26900044,
+      -1.9519672,
+      -7.3865966e-05,
+      -0.41709265,
+      -0.21893732,
+      -0.0016222782,
+      -0.0035142861,
+      -1.0639966,
+      -1.7595703e-05,
+      -0.046421036,
+      -0.00043402638,
+      -0.1040877,
+      -0.00057130784,
+      -9.461016e-05,
+      -0.01861727,
+      -0.009579099,
+      -0.0016666369,
+      -0.051248483,
+      -0.0003253869,
+      -0.03609063,
+      -0.4179161,
+      -0.027420927,
+      -8.4157e-06,
+      -0.0007724888,
+      -6.754697e-05,
+      -0.15078814,
+      -0.0058356426,
+      -0.12698811,
+      -1.6523539,
+      -0.008270839,
+      -0.00021491051,
+      -0.00022373382,
+      -3.201996e-05,
+      -0.0147426,
+      -0.0008396568,
+      -5.157113e-05,
+      -2.1051823e-05,
+      -1.2618594,
+      -0.17056832,
+      -0.03483432,
+      -0.096011706,
+      -0.0009913117,
+      -0.00086745684,
+      -0.015685832,
+      -0.7010764,
+      -0.065776415,
+      -0.14457633,
+      -0.22334225,
+      -0.20737,
+      -0.61394906,
+      -0.00331279,
+      -1.2306993,
+      -0.023365464,
+      -0.012418556,
+      -0.020725911,
+      -0.015100095,
+      -0.32033458,
+      -1.865205,
+      -0.0005315287,
+      -0.051584896,
+      -0.79190284,
+      -0.01766793,
+      -0.2134689,
+      -2.3959086,
+      -0.74842644,
+      -0.053993404,
+      -0.8509177,
+      -0.23144692,
+      -1.7507356,
+      -0.0060798633,
+      -0.0013645793,
+      -1.3362533,
+      -0.07804569,
+      -0.36038256,
+      -0.77652764,
+      -0.1563731,
+      -0.5275311,
+      -0.007730884,
+      -1.3249187,
+      -1.4798034,
+      -0.06501384,
+      -2.2174885,
+      -0.3232265,
+      -1.22749,
+      -0.60574645,
+      -0.0755656,
+      -0.0034795937,
+      -1.296772,
+      -0.00029414485,
+      -0.0022778378,
+      -2.200643e-05,
+      -4.9782993e-05
+    ],
+    "top_logprobs": [
+      {
+        " Cl": -7.63638,
+        "\n": -4.8195004,
+        " ": -8.772221,
+        "Cl": -0.008791494,
+        "cl": -11.188936
+      },
+      {
+        "\n": -15.34202,
+        "UES": -15.555509,
+        "<|endoftext|>": -12.335164,
+        "ue": -11.553354,
+        "ues": -1.4854846e-05
+      },
+      {
+        " &": -9.72142,
+        " ": -11.22558,
+        ":": -11.537778,
+        " and": -0.000111420464,
+        "<|endoftext|>": -11.665675
+      },
+      {
+        " reasoning": -7.435819,
+        " ": -10.421739,
+        " Reason": -9.527391,
+        " the": -0.000753697,
+        " The": -11.199137
+      },
+      {
+        " reasoning": -0.0013796804,
+        " reason": -8.950765,
+        " ": -11.511095,
+        " Reason": -6.720368,
+        "<|endoftext|>": -12.014171
+      },
+      {
+        " Process": -8.812604,
+        " process": -0.000493718,
+        " ": -9.631947,
+        ":": -8.872658,
+        " processes": -9.721103
+      },
+      {
+        " Cl": -11.546865,
+        " :": -8.990218,
+        "\n": -11.099656,
+        ":": -0.00017210613,
+        "::": -12.038375
+      },
+      {
+        " Cl": -0.38505864,
+        "\n": -4.9145308,
+        " ": -5.251853,
+        " The": -1.6510136,
+        " Key": -2.188224
+      },
+      {
+        "ued": -13.152959,
+        "UES": -12.557945,
+        "ue": -7.529398,
+        "u": -12.084258,
+        "ues": -0.0005553226
+      },
+      {
+        " :": -8.648614,
+        ":\"": -7.7727685,
+        ":": -0.0025976219,
+        " in": -8.28584,
+        " and": -6.7919283
+      },
+      {
+        " company": -6.962327,
+        " ": -6.537183,
+        " \"": -0.016523255,
+        " The": -5.923658,
+        "bytes: \\xe2\\x80": -4.6969886
+      },
+      {
+        "town": -0.5544799,
+        "shr": -4.6796565,
+        "jew": -3.3475494,
+        "manufact": -4.733404,
+        "q": -1.0433543
+      },
+      {
+        " &": -7.789352,
+        " country": -0.0030360604,
+        "\",": -6.692626,
+        "country": -8.693611,
+        " and": -7.6531243
+      },
+      {
+        " jew": -7.600951,
+        "\",": -6.062175,
+        " jewel": -7.880893,
+        " jewelry": -0.0034957433,
+        " Jewel": -9.230703
+      },
+      {
+        "\"": -8.183101,
+        "\",": -4.555093,
+        " m": -7.884031,
+        " manufact": -8.568767,
+        " manufacturing": -0.012030043
+      },
+      {
+        "\"": -3.8429296,
+        " q": -3.8415158,
+        "\",": -0.070056334,
+        " corp": -4.1030693,
+        ",\"": -5.2785954
+      },
+      {
+        " q": -8.155143,
+        "\n": -10.085427,
+        " ": -6.9275656,
+        " \"": -0.0018551423,
+        "bytes: \\xe2\\x80": -7.6781945
+      },
+      {
+        "sh": -5.2865496,
+        "net": -2.545761,
+        "shr": -2.8007429,
+        "f": -6.2659974,
+        "q": -0.1620007
+      },
+      {
+        "rt": -10.496846,
+        "tr": -4.799487e-05,
+        "ur": -13.04374,
+        "<|endoftext|>": -13.41851,
+        "r": -11.697508
+      },
+      {
+        "\"": -5.4711733,
+        ",": -7.776711,
+        "\",": -0.108052224,
+        ",\"": -7.751694,
+        " fe": -2.336991
+      },
+      {
+        " shr": -11.090455,
+        "\n": -10.958506,
+        " ": -7.391814,
+        " \"": -0.0008353625,
+        "bytes: \\xe2\\x80": -8.82903
+      },
+      {
+        "sh": -4.5245514,
+        "net": -2.434291,
+        "shr": -0.18768041,
+        "fe": -5.7483945,
+        "f": -2.6874819
+      },
+      {
+        "\",": -8.4389715,
+        " c": -0.00030487834,
+        " d": -11.017921,
+        "ct": -10.700215,
+        " vs": -10.80602
+      },
+      {
+        "tx": -13.18152,
+        "tz": -12.8267145,
+        "tes": -11.766269,
+        "t": -12.216745,
+        "ts": -2.8206221e-05
+      },
+      {
+        "\"": -6.2910643,
+        "vs": -8.851154,
+        "\",": -0.2355492,
+        " \",": -9.108632,
+        " vs": -1.5741017
+      },
+      {
+        "\n": -10.96342,
+        " net": -10.7340765,
+        " ": -8.299497,
+        " \"": -0.0003871004,
+        "bytes: \\xe2\\x80": -9.529641
+      },
+      {
+        " net": -9.026187,
+        "ct": -6.205686,
+        "net": -0.006074166,
+        "nets": -8.319361,
+        "s": -5.6957755
+      },
+      {
+        "\"": -6.899166,
+        "vs": -8.850903,
+        "\",": -0.89537394,
+        " vs": -0.5280262,
+        " versus": -8.991107
+      },
+      {
+        ".": -9.899629,
+        "\",": -7.5627294,
+        " Sales": -10.330459,
+        " sales": -0.0008632808,
+        " sale": -8.492967
+      },
+      {
+        "\"": -6.6415076,
+        "\",": -0.124736905,
+        " m": -2.1589909,
+        " \",": -8.559037,
+        ",\"": -9.37196
+      },
+      {
+        " ": -7.7254033,
+        " and": -10.60699,
+        " \"": -0.0005970119,
+        " avg": -10.542684,
+        "bytes: \\xe2\\x80": -9.912398
+      },
+      {
+        "sh": -7.8435707,
+        "year": -2.8946023,
+        "ml": -7.416895,
+        "av": -0.06034899,
+        "m": -7.678114
+      },
+      {
+        "gs": -13.636623,
+        "gr": -13.565686,
+        " g": -13.887154,
+        "<|endoftext|>": -13.292393,
+        "g": -1.2231317e-05
+      },
+      {
+        " shr": -8.4231205,
+        "sh": -8.958743,
+        "\",": -8.707489,
+        " sh": -0.0026068874,
+        " shares": -6.2615805
+      },
+      {
+        "rs": -0.00013109177,
+        "res": -9.376673,
+        "<|endoftext|>": -12.599175,
+        "s": -12.072322,
+        "ars": -10.69526
+      },
+      {
+        "\"": -6.043921,
+        "\",": -0.12301969,
+        "\".": -8.663309,
+        "\",\"": -8.511057,
+        " vs": -2.1857083
+      },
+      {
+        "\"": -7.7915616,
+        "\",": -1.7616235,
+        " \",": -8.533896,
+        " yr": -8.699642,
+        " year": -0.19008462
+      },
+      {
+        "\"": -5.650708,
+        " shr": -1.5325272,
+        "\",": -0.25159577,
+        "\".": -7.3122644,
+        " \",": -7.7400303
+      },
+      {
+        " ": -7.209236,
+        " and": -6.0990376,
+        " note": -9.515364,
+        " \"": -0.0033484334,
+        "bytes: \\xe2\\x80": -8.797735
+      },
+      {
+        "note": -2.8287213,
+        "sh": -4.3369665,
+        "dl": -2.3550904,
+        "net": -3.2678652,
+        "shr": -0.23965004
+      },
+      {
+        "\",": -9.555941,
+        " c": -6.61334,
+        " d": -0.0015864583,
+        " vs": -9.247646,
+        " dollars": -11.035512
+      },
+      {
+        "lr": -8.678174,
+        "ll": -10.240038,
+        "ol": -9.682399,
+        "ls": -10.489957,
+        "l": -0.0003245515
+      },
+      {
+        "rs": -5.7177684e-05,
+        "res": -12.299091,
+        " rs": -12.69201,
+        "ors": -12.538622,
+        "ars": -10.468022
+      },
+      {
+        "\"": -5.0671496,
+        "\",": -0.79984784,
+        "\".": -4.8198614,
+        " net": -8.3054085,
+        " vs": -0.6259891
+      },
+      {
+        "\",": -5.0570064,
+        "\".": -9.688425,
+        " net": -8.776709,
+        " c": -7.405348,
+        " d": -0.007485661
+      },
+      {
+        "lr": -8.264105,
+        "dl": -10.462308,
+        "ld": -10.997618,
+        "ls": -10.556706,
+        "l": -0.0003634877
+      },
+      {
+        "rs": -2.2126573e-05,
+        "res": -12.999385,
+        "rd": -12.97131,
+        "<|endoftext|>": -12.642744,
+        "ars": -12.394941
+      },
+      {
+        "\"": -4.6704245,
+        "\",": -0.10619487,
+        "\".": -3.2383893,
+        " net": -2.9814281,
+        "\",\"": -8.044795
+      },
+      {
+        " ": -7.1903596,
+        " and": -5.49671,
+        " note": -9.275328,
+        " \"": -0.0051996144,
+        "bytes: \\xe2\\x80": -8.997404
+      },
+      {
+        "note": -2.0734239,
+        "re": -4.8840723,
+        "net": -0.16177604,
+        "av": -5.2869925,
+        "s": -4.7258244
+      },
+      {
+        "\"": -8.018347,
+        "\",": -4.9067144,
+        "\".": -7.381419,
+        " m": -7.6092076,
+        " vs": -0.009125817
+      },
+      {
+        "\",": -7.4700503,
+        " Sales": -10.503617,
+        " rev": -8.410493,
+        " sales": -0.0010200092,
+        " sale": -9.366931
+      },
+      {
+        "\"": -4.830867,
+        "\",": -0.17044674,
+        "\".": -2.4763951,
+        "\",\"": -8.002145,
+        " m": -2.7539656
+      },
+      {
+        " ": -6.940791,
+        " and": -4.2051153,
+        " note": -9.079457,
+        " \"": -0.016502589,
+        "bytes: \\xe2\\x80": -9.004158
+      },
+      {
+        "cor": -5.069267,
+        "note": -0.4803033,
+        "re": -3.526876,
+        "ml": -5.755058,
+        "av": -1.0857835
+      },
+      {
+        "\"": -3.5238724,
+        "\",": -1.2057382,
+        "\".": -1.1938325,
+        " town": -1.010769,
+        " Town": -7.3364143
+      },
+      {
+        "\n": -1.9198797,
+        " ": -0.24081783,
+        " Reason": -2.7398546,
+        " The": -6.9527583,
+        "  ": -6.874694
+      },
+      {
+        "\t": -12.223631,
+        "\n": -0.0011189391,
+        " Reason": -6.849112,
+        "Reason": -10.205794,
+        "\n\n": -12.221119
+      },
+      {
+        "\n": -7.841296,
+        " Reason": -6.6393385,
+        "Re": -8.740545,
+        "Reason": -0.00223393,
+        "The": -8.307558
+      },
+      {
+        " Process": -11.1701,
+        " process": -10.522726,
+        ":": -8.09104,
+        "ing": -0.0003921081,
+        "ings": -10.419338
+      },
+      {
+        " Process": -2.027637,
+        " process": -0.42415968,
+        "Process": -8.705036,
+        ":": -1.5443379,
+        " processes": -9.168581
+      },
+      {
+        " :": -9.248887,
+        ":": -0.00013586106,
+        ";": -11.640654,
+        "::": -11.853705,
+        " The": -11.439377
+      },
+      {
+        " These": -3.8394792,
+        " From": -5.6249037,
+        " The": -0.050260503,
+        "The": -6.3318825,
+        " This": -4.3425922
+      },
+      {
+        " is": -6.330734,
+        " IN": -1.1225519,
+        " input": -0.507432,
+        " sentence": -2.81511,
+        " indicates": -5.8787484
+      },
+      {
+        " is": -2.3625128,
+        " includes": -3.3397734,
+        " contains": -0.40136474,
+        " suggests": -3.1965592,
+        " sentence": -2.638266
+      },
+      {
+        " several": -3.1448045,
+        " clues": -2.263336,
+        " words": -0.72863257,
+        " keywords": -3.0934339,
+        " many": -1.6477114
+      },
+      {
+        " indicating": -3.40108,
+        " that": -0.48185045,
+        " related": -1.67043,
+        " which": -2.971707,
+        " such": -3.1036851
+      },
+      {
+        " suggest": -0.7126383,
+        " the": -3.9820397,
+        " are": -2.719375,
+        " indicate": -1.2274489,
+        " point": -2.4027133
+      },
+      {
+        " a": -3.6187146,
+        " the": -0.6767213,
+        " that": -1.415363,
+        " it": -1.5761963,
+        " this": -4.960363
+      },
+      {
+        " earnings": -8.509738,
+        " the": -0.10081867,
+        " it": -2.3936348,
+        " this": -5.6874313,
+        " its": -7.343978
+      },
+      {
+        " relates": -4.3839707,
+        " is": -0.031526297,
+        " has": -6.0091133,
+        " may": -5.685482,
+        " deals": -6.026678
+      },
+      {
+        " discussing": -5.9639535,
+        " likely": -4.8040686,
+        " related": -0.024413176,
+        " about": -5.0464954,
+        " referring": -5.746741
+      },
+      {
+        " earnings": -10.282387,
+        " the": -11.580276,
+        " to": -0.00011666565,
+        " financial": -9.78881,
+        " specifically": -13.009264
+      },
+      {
+        " earnings": -0.80231565,
+        " company": -4.03344,
+        " a": -1.547633,
+        " the": -3.3809052,
+        " financial": -1.3062812
+      },
+      {
+        ",": -6.8408885,
+        ".": -7.107807,
+        " forecasts": -7.4778047,
+        " and": -0.0037864223,
+        " or": -7.330672
+      },
+      {
+        " earnings": -0.27797583,
+        " earning": -5.4657693,
+        " business": -5.0416336,
+        " forecasts": -4.554862,
+        " financial": -1.5353591
+      },
+      {
+        " forecast": -6.311281,
+        " predictions": -8.761705,
+        " forecasts": -0.021835934,
+        " reports": -8.309076,
+        " forecasting": -3.956633
+      },
+      {
+        ",": -2.255091,
+        ".": -0.13021679,
+        " of": -6.159582,
+        " for": -5.2081785,
+        " such": -5.3734217
+      },
+      {
+        " Specifically": -2.6192832,
+        " Words": -3.6463063,
+        " These": -3.0048363,
+        " The": -0.26900044,
+        " This": -3.1389859
+      },
+      {
+        " clues": -3.5115354,
+        " words": -0.3219261,
+        " keywords": -4.153904,
+        " terms": -3.325135,
+        " presence": -1.9519672
+      },
+      {
+        " words": -10.119635,
+        " the": -11.344797,
+        " terms": -12.689076,
+        " of": -7.3865966e-05,
+        " \"": -12.394563
+      },
+      {
+        " words": -0.41709265,
+        " the": -2.2214541,
+        " keywords": -4.14185,
+        " terms": -1.9601969,
+        " \"": -3.0447915
+      },
+      {
+        " related": -3.733872,
+        " \"": -5.9429708,
+        " associated": -6.038719,
+        " like": -1.8106542,
+        " such": -0.21893732
+      },
+      {
+        " company": -8.567771,
+        " a": -8.673079,
+        " the": -8.77831,
+        " as": -0.0016222782,
+        " \"": -7.0020432
+      },
+      {
+        "\"": -9.065527,
+        " net": -8.722735,
+        " \"": -0.0035142861,
+        "bytes: \\xe2\\x80": -5.9012747,
+        " '": -8.6913805
+      },
+      {
+        "town": -2.392373,
+        "sh": -5.953453,
+        "net": -0.76320946,
+        "shr": -2.3860826,
+        "q": -1.0639966
+      },
+      {
+        "trl": -13.810097,
+        "rt": -11.779124,
+        "tr": -1.7595703e-05,
+        "ur": -12.587259,
+        "r": -13.862509
+      },
+      {
+        "\"": -3.3465137,
+        ",": -7.4867005,
+        "\",": -0.046421036,
+        "\",\"": -8.111948,
+        ",\"": -4.7134857
+      },
+      {
+        " shr": -11.456178,
+        " ": -8.370023,
+        " and": -9.413738,
+        " \"": -0.00043402638,
+        "bytes: \\xe2\\x80": -9.62644
+      },
+      {
+        " shr": -7.5188775,
+        "note": -8.641417,
+        "sh": -5.7306895,
+        "net": -2.362995,
+        "shr": -0.1040877
+      },
+      {
+        "\"": -10.372298,
+        "\",": -7.6543036,
+        " c": -0.00057130784,
+        " d": -11.199686,
+        "ct": -10.365566
+      },
+      {
+        "tc": -12.35415,
+        "ct": -12.193694,
+        "TS": -12.085538,
+        "t": -9.951771,
+        "ts": -9.461016e-05
+      },
+      {
+        "\"": -4.0431304,
+        ",": -8.951683,
+        "\",": -0.01861727,
+        "\",\"": -8.861506,
+        ",\"": -7.9210396
+      },
+      {
+        " net": -10.943002,
+        " ": -7.9906864,
+        " and": -4.703421,
+        " \"": -0.009579099,
+        "bytes: \\xe2\\x80": -9.639941
+      },
+      {
+        "year": -10.734571,
+        " net": -9.621384,
+        "net": -0.0016666369,
+        "av": -7.194727,
+        "s": -7.2115192
+      },
+      {
+        "\"": -6.2172065,
+        "vs": -9.135649,
+        "\",": -3.0440385,
+        " vs": -0.051248483,
+        " versus": -9.964027
+      },
+      {
+        ".": -10.280174,
+        "\",": -9.794877,
+        " Sales": -11.107071,
+        " sales": -0.0003253869,
+        " sale": -8.630336
+      },
+      {
+        "\"": -3.4026334,
+        "\",": -0.03609063,
+        "\",\"": -9.278975,
+        " m": -6.5078444,
+        ",\"": -8.1458
+      },
+      {
+        " ": -7.602288,
+        " and": -1.0767182,
+        " as": -9.298462,
+        " \"": -0.4179161,
+        " avg": -9.895986
+      },
+      {
+        "sh": -6.914909,
+        "year": -3.948134,
+        "dl": -6.4544177,
+        "shr": -5.6533103,
+        "av": -0.027420927
+      },
+      {
+        "gs": -13.43504,
+        "\n": -14.2105255,
+        "<|endoftext|>": -13.112925,
+        "g": -8.4157e-06,
+        "r": -14.662277
+      },
+      {
+        " shr": -8.889541,
+        "sh": -10.130918,
+        "\",": -10.091454,
+        " sh": -0.0007724888,
+        " shares": -7.752323
+      },
+      {
+        "rs": -6.754697e-05,
+        "res": -10.202867,
+        "<|endoftext|>": -13.1161375,
+        "s": -12.174545,
+        "ars": -11.289357
+      },
+      {
+        "\"": -3.6512954,
+        "vs": -8.94977,
+        "\",": -2.17673,
+        " vs": -0.15078814,
+        " versus": -8.655299
+      },
+      {
+        "\"": -6.841797,
+        "\",": -5.3981886,
+        "year": -10.78157,
+        " year": -0.0058356426,
+        " years": -9.225236
+      },
+      {
+        "\"": -2.162789,
+        " shr": -5.822697,
+        ",": -8.634531,
+        "\",": -0.12698811,
+        ",\"": -7.7700677
+      },
+      {
+        "\n": -9.296655,
+        " ": -7.319982,
+        " and": -0.21416534,
+        " as": -8.694659,
+        " \"": -1.6523539
+      },
+      {
+        "note": -6.3809524,
+        "sh": -6.7863703,
+        "dl": -5.634561,
+        "net": -6.8777714,
+        "shr": -0.008270839
+      },
+      {
+        "\n": -9.423275,
+        " ": -11.13277,
+        " c": -9.608426,
+        " d": -0.00021491051,
+        " vs": -11.541383
+      },
+      {
+        "lr": -9.5629,
+        "dl": -9.370865,
+        "ll": -10.789366,
+        "l": -0.00022373382,
+        "lers": -10.945514
+      },
+      {
+        "rs": -3.201996e-05,
+        "res": -12.802131,
+        " rs": -12.623836,
+        "<|endoftext|>": -12.305834,
+        "ars": -12.291874
+      },
+      {
+        "\"": -5.0069423,
+        "vs": -8.946396,
+        "\",": -4.8855996,
+        "\n": -9.617239,
+        " vs": -0.0147426
+      },
+      {
+        "\"": -8.64597,
+        "\",": -8.535345,
+        "\n": -8.561544,
+        " c": -8.978625,
+        " d": -0.0008396568
+      },
+      {
+        "lr": -12.4397335,
+        "dl": -12.801511,
+        "ll": -12.319404,
+        "ls": -10.398088,
+        "l": -5.157113e-05
+      },
+      {
+        "rs": -2.1051823e-05,
+        "rd": -12.731081,
+        " rs": -12.72861,
+        "<|endoftext|>": -12.758961,
+        "ars": -13.010508
+      },
+      {
+        "\"": -1.2618594,
+        "\",": -0.33486885,
+        "\".": -8.474481,
+        " net": -8.489651,
+        ",\"": -7.8801336
+      },
+      {
+        " suggest": -4.7133822,
+        " and": -0.17056832,
+        " all": -3.2786624,
+        " indicate": -2.7213027,
+        " indicates": -4.301498
+      },
+      {
+        "\n": -8.073258,
+        " ": -6.969204,
+        " a": -6.13958,
+        " the": -3.518801,
+        " \"": -0.03483432
+      },
+      {
+        "note": -2.4161963,
+        "town": -8.503094,
+        " net": -8.577539,
+        "net": -0.096011706,
+        "av": -6.6870375
+      },
+      {
+        "\"": -7.2415886,
+        "vs": -10.166839,
+        "\n": -9.634929,
+        " vs": -0.0009913117,
+        " versus": -10.027569
+      },
+      {
+        "\n": -7.559413,
+        " ": -9.474049,
+        " TOP": -9.388089,
+        " sales": -0.00086745684,
+        " sale": -9.620542
+      },
+      {
+        "\"": -0.015685832,
+        "\",": -4.628244,
+        "\".": -9.59703,
+        " m": -5.209318,
+        "bytes:\\xe2\\x80": -9.941193
+      },
+      {
+        " suggest": -2.6846359,
+        " imply": -2.8734977,
+        " all": -1.6853083,
+        " indicate": -0.7010764,
+        " indicates": -2.9415472
+      },
+      {
+        " a": -3.9744372,
+        " the": -4.643949,
+        " financial": -3.6432643,
+        " that": -0.065776415,
+        " this": -5.993243
+      },
+      {
+        " the": -0.14457633,
+        " financial": -6.110388,
+        " it": -2.5313828,
+        " this": -3.0801098,
+        " there": -6.1265287
+      },
+      {
+        " information": -4.5801725,
+        " TOP": -3.5818102,
+        " IN": -4.294345,
+        " input": -2.1231914,
+        " topic": -0.22334225
+      },
+      {
+        " likely": -3.5053527,
+        " is": -0.20737,
+        " has": -3.5914955,
+        " deals": -4.090268,
+        " involves": -2.8071136
+      },
+      {
+        " likely": -0.8827289,
+        " financial": -4.7972336,
+        " related": -0.61394906,
+        " about": -4.3810005,
+        " focused": -5.614174
+      },
+      {
+        "\n": -6.410758,
+        " ": -7.430031,
+        " to": -0.00331279,
+        " TOP": -8.637637,
+        " financial": -7.135476
+      },
+      {
+        " company": -3.900131,
+        " analyzing": -3.9365213,
+        " a": -1.2306993,
+        " the": -3.186707,
+        " financial": -0.5201681
+      },
+      {
+        " company": -0.023365464,
+        "\n": -5.139087,
+        " specific": -5.6500683,
+        " ": -6.12728,
+        " financial": -4.8798485
+      },
+      {
+        "\n": -8.79942,
+        " analyzing": -9.712097,
+        " financial": -8.58204,
+        "'s": -0.012418556,
+        "bytes:\\xe2\\x80": -4.4449635
+      },
+      {
+        " earnings": -5.782439,
+        "\n": -4.9222503,
+        " finances": -5.799111,
+        " performance": -5.314265,
+        " financial": -0.020725911
+      },
+      {
+        " information": -6.1328597,
+        "\n": -5.058083,
+        " metrics": -6.4253826,
+        " ": -6.464172,
+        " performance": -0.015100095
+      },
+      {
+        ",": -4.5472383,
+        ".": -0.32033458,
+        " metrics": -4.5509033,
+        " and": -1.4473201,
+        " over": -4.8593087
+      },
+      {
+        " Furthermore": -1.865205,
+        " Additionally": -0.45033395,
+        "\n": -3.9092991,
+        " ": -3.5869935,
+        " The": -2.0692189
+      },
+      {
+        ",": -0.0005315287,
+        "\n": -8.212941,
+        " ": -9.860112,
+        " the": -8.879943,
+        " TOP": -10.03531
+      },
+      {
+        "\n": -3.6931596,
+        " ": -3.929932,
+        " the": -0.051584896,
+        " TOP": -6.478637,
+        " \"": -6.46735
+      },
+      {
+        "\n": -2.9751163,
+        " ": -3.2645068,
+        " words": -2.790453,
+        " mention": -1.3491502,
+        " presence": -0.79190284
+      },
+      {
+        "\n": -4.405388,
+        " ": -5.326785,
+        " of": -0.01766793,
+        " TOP": -7.9311957,
+        "TOP": -10.069617
+      },
+      {
+        "\n": -3.8852735,
+        " ": -4.135205,
+        " a": -2.551842,
+        " the": -0.2134689,
+        " \"": -2.604544
+      },
+      {
+        " word": -1.0853797,
+        " company": -2.3959086,
+        " words": -1.1395848,
+        " \"": -3.1665316,
+        " phrase": -2.579092
+      },
+      {
+        " name": -0.68799025,
+        "\n": -4.2702227,
+        " ": -5.1783257,
+        "'s": -0.74842644,
+        "bytes:\\xe2\\x80": -5.786922
+      },
+      {
+        " full": -6.5254035,
+        " name": -0.053993404,
+        "\n": -3.440107,
+        " ": -4.0663815,
+        " TOP": -6.5597234
+      },
+      {
+        ",": -1.9444801,
+        "\n": -2.781387,
+        " ": -2.7400684,
+        " and": -0.8509177,
+        " \"": -2.3299472
+      },
+      {
+        "\n": -4.1511426,
+        " ": -4.585216,
+        " a": -1.9052007,
+        " the": -0.23144692,
+        " \"": -3.631575
+      },
+      {
+        " word": -0.85803545,
+        "\n": -3.0978866,
+        " mention": -2.2856,
+        " note": -2.468698,
+        " \"": -1.7507356
+      },
+      {
+        "note": -0.0060798633,
+        "NOTE": -7.367104,
+        "re": -5.606263,
+        "Re": -8.730938,
+        "Note": -6.572385
+      },
+      {
+        "\"": -0.0013645793,
+        "\",": -7.2065287,
+        "\n": -9.296523,
+        " TOP": -8.957988,
+        " town": -9.300358
+      },
+      {
+        " suggest": -1.3362533,
+        "\n": -2.276888,
+        " keyword": -2.5932426,
+        " ": -2.6128914,
+        " indicate": -2.4604626
+      },
+      {
+        "\n": -3.0964038,
+        " ": -4.390662,
+        " the": -5.4153447,
+        " TOP": -4.942369,
+        " that": -0.07804569
+      },
+      {
+        "\n": -3.0302975,
+        " ": -3.8866265,
+        " the": -0.36038256,
+        " it": -3.1504633,
+        " this": -1.7363725
+      },
+      {
+        " information": -2.887022,
+        "\n": -3.5503893,
+        " TOP": -1.911914,
+        " input": -1.384661,
+        " topic": -0.77652764
+      },
+      {
+        "\n": -4.326495,
+        " ": -4.606989,
+        " is": -0.1563731,
+        " may": -3.3863194,
+        " involves": -3.7198792
+      },
+      {
+        " likely": -1.5198588,
+        " related": -0.5275311,
+        " about": -3.9209123,
+        " specifically": -2.6060338,
+        " referring": -3.937964
+      },
+      {
+        "\n": -5.5736794,
+        " ": -6.9749417,
+        " to": -0.007730884,
+        " TOP": -8.138901,
+        " specifically": -6.028581
+      },
+      {
+        " earnings": -1.0872612,
+        "\n": -3.3561344,
+        " specific": -3.5613585,
+        " a": -1.3249187,
+        " the": -1.7443666
+      },
+      {
+        " company": -1.4798034,
+        " particular": -2.7800298,
+        "\n": -4.7301598,
+        " specific": -0.40201226,
+        " financial": -4.861811
+      },
+      {
+        "-": -3.0477102,
+        " earnings": -6.4566784,
+        " specific": -5.208046,
+        "'s": -0.06501384,
+        "bytes:\\xe2\\x80": -5.8996043
+      },
+      {
+        " earnings": -0.3296444,
+        "\n": -3.529834,
+        " specific": -2.2174885,
+        " quarterly": -3.9856825,
+        " financial": -2.5389454
+      },
+      {
+        " earnings": -0.3232265,
+        "\n": -3.6265836,
+        " results": -4.612577,
+        " performance": -3.5370955,
+        " financial": -1.7133079
+      },
+      {
+        " forecast": -4.135664,
+        ".": -3.2057898,
+        " and": -0.6207851,
+        " or": -2.7055602,
+        " report": -1.22749
+      },
+      {
+        ",": -5.8943834,
+        ".": -0.84666747,
+        "/": -5.016548,
+        " and": -4.389556,
+        " or": -0.60574645
+      },
+      {
+        " forecast": -0.0755656,
+        " earnings": -3.1583834,
+        "\n": -4.7569275,
+        " forecasts": -4.8465166,
+        " forecasting": -5.809076
+      },
+      {
+        ",": -6.614457,
+        ".": -0.0034795937,
+        "\n": -7.741762,
+        " for": -6.7591543,
+        " over": -8.89936
+      },
+      {
+        "\n": -0.3334635,
+        " ": -1.296772,
+        "TOP": -5.550285,
+        "  ": -6.7165723,
+        " Therefore": -5.904117
+      },
+      {
+        "\t": -11.468032,
+        "\n": -0.00029414485,
+        " TOP": -8.306541,
+        "TOP": -11.096704,
+        " Therefore": -11.547064
+      },
+      {
+        "\n": -6.5075703,
+        " ": -10.898886,
+        " TOP": -7.3279595,
+        "Topic": -9.701922,
+        "TOP": -0.0022778378
+      },
+      {
+        "ICS": -13.706448,
+        "IC": -2.200643e-05,
+        ":": -13.577789,
+        "C": -12.424622,
+        "<|endoftext|>": -11.444877
+      },
+      {
+        " :": -10.160127,
+        " Earn": -12.143983,
+        ":": -4.9782993e-05,
+        "<|endoftext|>": -12.533025,
+        " -": -14.749105
+      }
+    ],
+    "text_offset": [
+      10619,
+      10621,
+      10624,
+      10628,
+      10632,
+      10642,
+      10650,
+      10651,
+      10654,
+      10657,
+      10658,
+      10660,
+      10664,
+      10672,
+      10680,
+      10694,
+      10696,
+      10698,
+      10699,
+      10701,
+      10703,
+      10705,
+      10708,
+      10710,
+      10712,
+      10714,
+      10716,
+      10719,
+      10722,
+      10728,
+      10730,
+      10732,
+      10734,
+      10735,
+      10738,
+      10740,
+      10743,
+      10748,
+      10750,
+      10752,
+      10755,
+      10757,
+      10758,
+      10760,
+      10763,
+      10765,
+      10766,
+      10768,
+      10770,
+      10772,
+      10775,
+      10778,
+      10784,
+      10786,
+      10788,
+      10792,
+      10794,
+      10795,
+      10796,
+      10802,
+      10805,
+      10813,
+      10814,
+      10819,
+      10825,
+      10834,
+      10840,
+      10845,
+      10853,
+      10858,
+      10861,
+      10864,
+      10872,
+      10875,
+      10884,
+      10888,
+      10897,
+      10907,
+      10908,
+      10912,
+      10921,
+      10924,
+      10930,
+      10935,
+      10938,
+      10940,
+      10941,
+      10943,
+      10945,
+      10947,
+      10950,
+      10952,
+      10954,
+      10956,
+      10958,
+      10961,
+      10964,
+      10970,
+      10972,
+      10974,
+      10976,
+      10977,
+      10980,
+      10982,
+      10985,
+      10990,
+      10992,
+      10994,
+      10997,
+      10999,
+      11000,
+      11002,
+      11005,
+      11007,
+      11008,
+      11010,
+      11011,
+      11015,
+      11017,
+      11020,
+      11023,
+      11029,
+      11030,
+      11039,
+      11044,
+      11048,
+      11054,
+      11057,
+      11065,
+      11068,
+      11070,
+      11078,
+      11080,
+      11090,
+      11102,
+      11103,
+      11115,
+      11116,
+      11120,
+      11129,
+      11132,
+      11136,
+      11144,
+      11146,
+      11151,
+      11155,
+      11159,
+      11161,
+      11165,
+      11166,
+      11174,
+      11179,
+      11183,
+      11189,
+      11192,
+      11200,
+      11203,
+      11205,
+      11213,
+      11215,
+      11224,
+      11233,
+      11240,
+      11243,
+      11252,
+      11253,
+      11254,
+      11255,
+      11258,
+      11260
+    ]
+  },
+  "retry_time": 2,
+  "retry_gpt_returned_results": "Clues and the reasoning process: The key clues in the input are \"town country jewelry manufacturing\", \"net shr cts vs cts\", \"net vs sales mln vs mln\", \"avg shrs vs year shr dlrs vs dlrs\", and \"note town country jewelry manufacturing corp\". These clues suggest that the topic is related to the financial performance of a company, specifically, earnings and earnings forecasts. The presence of the words \"qtr\" and \"feb\" also indicate that the information is related to a specific period. \nTOPIC: Earnings and Earnings Forecasts",
+  "pred_label": "5",
+  "pred_label_word_in_verbalizer": false
+}

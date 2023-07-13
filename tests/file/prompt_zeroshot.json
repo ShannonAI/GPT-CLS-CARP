@@ -1,0 +1,13 @@
+{
+  "gradient_update": false,
+  "instance_num": 0,
+  "instance_strategy": "NULL",
+  "model_backbone": "gpt-3",
+  "prompt_strategy": "zero-shot",
+  "task_description": "Classify the sentiment of the following sentence as Positive or Negative.",
+  "delimiter": "\n\n",
+  "verbalizer": {
+    "0": "Positive",
+    "1": "Negative"
+  }
+}
